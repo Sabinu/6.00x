@@ -4,9 +4,9 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e5168c0d-a345-4438-9d2d-ab1332199f2e" name="Default" comment="clear _teste_random">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lecture 7/Lec7__p_04.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_teste_random.py" afterPath="$PROJECT_DIR$/_teste_random.py" />
+    <list default="true" id="e5168c0d-a345-4438-9d2d-ab1332199f2e" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lecture 7/Lec7__p_05.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/Sabinu.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/Sabinu.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="6.00x.iws" />
@@ -37,19 +37,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="_teste_random.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_teste_random.py">
+      <file leaf-file-name="Lec7__p_04.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Lecture 7/Lec7__p_04.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="25" selection-start="1030" selection-end="1030" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
+            <state line="30" column="0" selection-start="1047" selection-end="1047" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Lec7__p_04.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Lecture 7/Lec7__p_04.py">
+      <file leaf-file-name="Lec7__p_05.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Lecture 7/Lec7__p_05.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="751">
+            <state line="8" column="17" selection-start="156" selection-end="156" vertical-scroll-proportion="0.18109187" vertical-offset="0" max-vertical-offset="751">
               <folding />
             </state>
           </provider>
@@ -74,8 +74,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Lecture 3/Lec3__p_8b.py" />
-        <option value="$PROJECT_DIR$/Lecture 3/Lec3__p_8c.py" />
         <option value="$PROJECT_DIR$/Lecture 4/Lec4__p_05.py" />
         <option value="$PROJECT_DIR$/Lecture 4/Lec4__p_12.py" />
         <option value="$PROJECT_DIR$/pset 01/pset_01 p_01 - Counting Vowels.py" />
@@ -90,6 +88,8 @@
         <option value="$PROJECT_DIR$/pset 03/tinker.py" />
         <option value="$PROJECT_DIR$/tinker.py" />
         <option value="$PROJECT_DIR$/_teste_random.py" />
+        <option value="$PROJECT_DIR$/Lecture 7/Lec7__p_04.py" />
+        <option value="$PROJECT_DIR$/Lecture 7/Lec7__p_05.py" />
       </list>
     </option>
   </component>
@@ -106,12 +106,15 @@
             <id />
           </State>
           <State>
+            <id>General</id>
+          </State>
+          <State>
             <id>Python</id>
           </State>
         </expanded-state>
         <selected-state>
           <State>
-            <id>Buildout</id>
+            <id>Annotator</id>
           </State>
         </selected-state>
       </profile-state>
@@ -176,20 +179,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="6.00x" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="6.00x" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Lecture 6" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -230,11 +219,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Lecture 7" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/pset 03" />
       <recent name="E:\Sabin\Dropbox\WGA\____Research\_Python\6.00x\pset 01" />
       <recent name="E:\Sabin\Dropbox\WGA\____Research\_Python\6.00x\Lecture 4" />
-      <recent name="E:\Sabin\Dropbox\WGA\____Research\_Python\6.00x\Lecture 3" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Lecture 7" />
@@ -243,7 +232,7 @@
       <recent name="E:\Sabin\Dropbox\WGA\____Research\_Python\6.00x" />
     </key>
   </component>
-  <component name="RunManager" selected="Python._teste_random">
+  <component name="RunManager" selected="Python.Lec7__p_05">
     <configuration default="false" name="pset_02 p_03 - Bisection Debt Search" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -258,25 +247,6 @@
       <module name="6.00x" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pset 02/pset_02 p_03 - Bisection Debt Search.py" />
-      <option name="PARAMETERS" value="" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Lec3__p_8c" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lecture 3" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="6.00x" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lecture 3/Lec3__p_8c.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
@@ -334,6 +304,25 @@
       <module name="6.00x" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_teste_random.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Lec7__p_05" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lecture 7" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="6.00x" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lecture 7/Lec7__p_05.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
@@ -465,18 +454,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.pset_02 p_03 - Bisection Debt Search" />
-      <item index="1" class="java.lang.String" itemvalue="Python.Lec3__p_8c" />
-      <item index="2" class="java.lang.String" itemvalue="Python.pset_02 p_02 - paying debt off in a year" />
-      <item index="3" class="java.lang.String" itemvalue="Python.tinker" />
-      <item index="4" class="java.lang.String" itemvalue="Python._teste_random" />
+      <item index="1" class="java.lang.String" itemvalue="Python.pset_02 p_02 - paying debt off in a year" />
+      <item index="2" class="java.lang.String" itemvalue="Python.tinker" />
+      <item index="3" class="java.lang.String" itemvalue="Python._teste_random" />
+      <item index="4" class="java.lang.String" itemvalue="Python.Lec7__p_05" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python._teste_random" />
-        <item index="1" class="java.lang.String" itemvalue="Python.tinker" />
-        <item index="2" class="java.lang.String" itemvalue="Python.pset_02 p_03 - Bisection Debt Search" />
-        <item index="3" class="java.lang.String" itemvalue="Python.pset_02 p_02 - paying debt off in a year" />
-        <item index="4" class="java.lang.String" itemvalue="Python.Lec3__p_8c" />
+        <item index="0" class="java.lang.String" itemvalue="Python.Lec7__p_05" />
+        <item index="1" class="java.lang.String" itemvalue="Python._teste_random" />
+        <item index="2" class="java.lang.String" itemvalue="Python.tinker" />
+        <item index="3" class="java.lang.String" itemvalue="Python.pset_02 p_03 - Bisection Debt Search" />
+        <item index="4" class="java.lang.String" itemvalue="Python.pset_02 p_02 - paying debt off in a year" />
       </list>
     </recent_temporary>
   </component>
@@ -520,7 +509,11 @@
       <created>1383482523304</created>
       <updated>1383482523305</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Lecture 7 Problem 4">
+      <created>1383502087773</created>
+      <updated>1383502087773</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -552,7 +545,7 @@
       <window_info id="Terminal" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37755823" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3288638" sideWeight="0.6803594" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24861111" sideWeight="0.67160773" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24722221" sideWeight="0.66110396" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.41666666" sideWeight="0.66110396" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3951389" sideWeight="0.49935815" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3326389" sideWeight="0.67160773" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3288638" sideWeight="0.6706349" order="6" side_tool="false" content_ui="tabs" />
@@ -597,7 +590,8 @@
     </option>
     <MESSAGE value="0001" />
     <MESSAGE value="clear _teste_random" />
-    <option name="LAST_COMMIT_MESSAGE" value="clear _teste_random" />
+    <MESSAGE value="Lecture 7 Problem 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lecture 7 Problem 4" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -698,14 +692,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_teste_random.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="25" selection-start="1030" selection-end="1030" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
+        <state line="28" column="25" selection-start="1030" selection-end="1030" vertical-scroll-proportion="0.63382155" vertical-offset="0" max-vertical-offset="751">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Lecture 7/Lec7__p_04.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="751">
+        <state line="30" column="0" selection-start="1047" selection-end="1047" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lecture 7/Lec7__p_05.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="17" selection-start="156" selection-end="156" vertical-scroll-proportion="0.18109187" vertical-offset="0" max-vertical-offset="751">
           <folding />
         </state>
       </provider>
