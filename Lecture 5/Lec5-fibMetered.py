@@ -14,6 +14,6 @@ def testFib(n):
         global numCalls
         numCalls = 0
         print('fib of ' + str(i) + ' = ' + str(fibMetered(i)))
-        print('fib called ' + str(numCalls) + ' times')
+        print('____fib called ' + str(numCalls) + ' times')
 
 testFib(10)
