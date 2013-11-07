@@ -5,10 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e5168c0d-a345-4438-9d2d-ab1332199f2e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/6.00x.iml" afterPath="$PROJECT_DIR$/.idea/6.00x.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture 5/Lec5-fibMetered.py" afterPath="$PROJECT_DIR$/Lecture 5/Lec5-fibMetered.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/Sabinu.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/Sabinu.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="6.00x.iws" />
@@ -77,9 +73,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="22" />
-    <option name="width" value="1440" />
-    <option name="height" value="874" />
+    <option name="x" value="-4" />
+    <option name="y" value="-4" />
+    <option name="width" value="1688" />
+    <option name="height" value="1028" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -156,14 +153,14 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="151" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="153" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="151" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
     <property name="recentsLimit" value="5" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="151" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../_Nodebox" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="156" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="950" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="950" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="950" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="156" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="153" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -490,7 +487,11 @@
       <created>1383567303241</created>
       <updated>1383567303241</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Checked FibMetered">
+      <created>1383746186949</created>
+      <updated>1383746186949</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -514,16 +515,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="874" extended-state="6" />
+    <frame x="-4" y="-4" width="1688" height="1028" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31964058" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37708333" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3288638" sideWeight="0.6803594" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32847223" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24861111" sideWeight="0.67160773" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25486112" sideWeight="0.66110396" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2547619" sideWeight="0.66110396" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3951389" sideWeight="0.49935815" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3326389" sideWeight="0.67160773" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3288638" sideWeight="0.6706349" order="6" side_tool="false" content_ui="tabs" />
@@ -533,6 +532,8 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297414" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32847223" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3577143" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -553,9 +554,9 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24911785" sideWeight="0.67160773" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24166666" sideWeight="0.68065506" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3577143" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26527777" sideWeight="0.6706349" order="7" side_tool="false" content_ui="tabs" x="615" y="55" width="755" height="920" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3577143" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -570,7 +571,8 @@
     <MESSAGE value="Lecture 7 Problem 4" />
     <MESSAGE value="Lecture 7 Problem 5" />
     <MESSAGE value="Fibbonaci Sum" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fibbonaci Sum" />
+    <MESSAGE value="Checked FibMetered" />
+    <option name="LAST_COMMIT_MESSAGE" value="Checked FibMetered" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -614,7 +616,7 @@
         <state line="23" column="0" selection-start="718" selection-end="871" vertical-scroll-proportion="0.5206391" vertical-offset="0" max-vertical-offset="751" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pset 03/pset_03 p_02 - hangman.py">
+    <entry file="file://$PROJECT_DIR$/pset 03/pset_03 p_02 - Hangman.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="131" column="85" selection-start="4054" selection-end="4054" vertical-scroll-proportion="0.4114514" vertical-offset="490" max-vertical-offset="1241" />
       </provider>
@@ -631,74 +633,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pset 02/pset_02 p_02 - paying debt off in a year.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="70" selection-end="70" vertical-scroll-proportion="0.11675824" vertical-offset="0" max-vertical-offset="765">
-          <folding />
-        </state>
+        <state line="5" column="0" selection-start="70" selection-end="70" vertical-scroll-proportion="0.11675824" vertical-offset="0" max-vertical-offset="765" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pset 02/pset_02 p_03 - Bisection Debt Search.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="57" selection-start="1044" selection-end="1044" vertical-scroll-proportion="0.9320905" vertical-offset="116" max-vertical-offset="918">
-          <folding>
-            <element signature="e#270#409#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="54" column="57" selection-start="1044" selection-end="1044" vertical-scroll-proportion="0.9320905" vertical-offset="116" max-vertical-offset="918" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tinker.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="122" selection-end="122" vertical-scroll-proportion="0.18109187" vertical-offset="0" max-vertical-offset="751">
-          <folding />
-        </state>
+        <state line="8" column="0" selection-start="122" selection-end="122" vertical-scroll-proportion="0.18109187" vertical-offset="0" max-vertical-offset="751" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Lecture 7/Lec7__p_04.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="0" selection-start="1047" selection-end="1047" vertical-scroll-proportion="0.67909455" vertical-offset="0" max-vertical-offset="751">
-          <folding />
-        </state>
+        <state line="30" column="0" selection-start="1047" selection-end="1047" vertical-scroll-proportion="0.67909455" vertical-offset="0" max-vertical-offset="751" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Lecture 7/Lec7__p_05.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="13" selection-start="496" selection-end="496" vertical-scroll-proportion="0.5659121" vertical-offset="0" max-vertical-offset="751">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/6-00sc-spring-2011/6-00sc-spring-2011/contents/unit-1/lecture-7-debugging/lec07.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="7" selection-start="577" selection-end="577" vertical-scroll-proportion="0.63382155" vertical-offset="0" max-vertical-offset="1479">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Library/Caches/PyCharm30/python_stubs/-1199944087/__builtin__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3215" column="19" selection-start="110884" selection-end="110884" vertical-scroll-proportion="72.165115" vertical-offset="391" max-vertical-offset="76228">
-          <folding>
-            <element signature="e#116#250#1" expanded="false" />
-            <element signature="e#110889#116846#0" expanded="false" />
-            <element signature="e#116873#125212#0" expanded="false" />
-            <element signature="e#125246#128081#0" expanded="false" />
-            <element signature="e#128113#131441#0" expanded="false" />
-            <element signature="e#131473#132484#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="25" column="13" selection-start="496" selection-end="496" vertical-scroll-proportion="0.5659121" vertical-offset="0" max-vertical-offset="751" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_teste_random.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="12" selection-start="333" selection-end="333" vertical-scroll-proportion="0.40745673" vertical-offset="0" max-vertical-offset="751">
-          <folding />
-        </state>
+        <state line="18" column="12" selection-start="333" selection-end="333" vertical-scroll-proportion="0.40745673" vertical-offset="0" max-vertical-offset="751" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Lecture 5/Lec5-fibMetered.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="159" selection-end="159" vertical-scroll-proportion="0.18109187" vertical-offset="0" max-vertical-offset="751">
-          <folding />
-        </state>
+        <state line="8" column="0" selection-start="159" selection-end="159" vertical-scroll-proportion="0.18109187" vertical-offset="0" max-vertical-offset="751" />
       </provider>
     </entry>
   </component>
