@@ -1,5 +1,5 @@
 # circle.py
-# From Lecture 4, Modules
+# From Lecture 4 - Functions, Modules
 
 pi = 3.14159
 
