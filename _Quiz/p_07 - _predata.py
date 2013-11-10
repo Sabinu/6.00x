@@ -13,7 +13,7 @@ def McNuggets(n):
             for c in range(n//20 + 1):
                 if a*6 + b*9 + c*20 == n:
                     #print [a, b, c],
-                    return [a, b, c]
+                    return True
     #print [a, b, c],
     return False
 
