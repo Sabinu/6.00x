@@ -12,6 +12,7 @@ def myLog(x, b):
     else:
         return 1 + myLog(x/b, b)
 
-print myLog(16, 2)
-print myLog(15, 3)
-print myLog(234, 2)
+print myLog(15,  3)  # 2
+print myLog(16,  2)  # 4
+print myLog(15,  3)  # 2
+print myLog(234, 2)  # 7

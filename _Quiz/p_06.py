@@ -20,7 +20,7 @@ def laceStringsRecur(s1, s2):
 
 ## TEST SUITE
 print laceStringsRecur('abcd',   '12345'), '\n____________'
-print laceStringsRecur('123456', 'abcd'),  '\n____________'
-print laceStringsRecur('abcd',   ''),      '\n____________'
+print laceStringsRecur('123456', 'abcd' ), '\n____________'
+print laceStringsRecur('abcd',   ''     ), '\n____________'
 print laceStringsRecur('',       '12345'), '\n____________'
-print laceStringsRecur('',       ''),      '\n____________'
+print laceStringsRecur('',       ''     ), '\n____________'
