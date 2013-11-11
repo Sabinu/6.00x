@@ -2,11 +2,8 @@ from ps4a import *
 import time
 
 
-#
-#
 # Problem #6: Computer chooses a word
-#
-#
+
 def compChooseWord(hand, wordList, n):
     """
     Given a hand and a wordList, find the word that gives 
@@ -43,9 +40,8 @@ def compChooseWord(hand, wordList, n):
     # return the best word you found.
 
 
-#
 # Problem #7: Computer plays a hand
-#
+
 def compPlayHand(hand, wordList, n):
     """
     Allows the computer to play the given hand, following the same procedure
@@ -67,10 +63,9 @@ def compPlayHand(hand, wordList, n):
     """
     # TO DO ... <-- Remove this comment when you code this function
     
-#
+
 # Problem #8: Playing a game
-#
-#
+
 def playGame(wordList):
     """
     Allow the user to play an arbitrary number of hands.
@@ -98,10 +93,9 @@ def playGame(wordList):
     # TO DO... <-- Remove this comment when you code this function
     print "playGame not yet implemented." # <-- Remove this when you code this function
 
-        
-#
+
 # Build data structures used for entire session and play game
-#
+
 if __name__ == '__main__':
     wordList = loadWords()
     playGame(wordList)
