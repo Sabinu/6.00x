@@ -74,8 +74,8 @@ def getWordScore(word, n):
     Letters are scored as in Scrabble; A is worth 1, B is worth 3, C is
     worth 3, D is worth 2, E is worth 1, and so on (see SCRABBLE_LETTER_VALUES)
     """
-    pass
-    # TO DO ... <-- Remove this comment when you code this function
+    if len(word) == 0:
+        return 0
 
 
 # Problem #2: Make sure you understand how this function works and what it does!

@@ -1,28 +1,49 @@
 from ps4a import *
 
-#
-# Test code
-# You don't need to understand how this test code works (but feel free to look it over!)
+# TEST CODE
+# =========
 
-# To run these tests, simply run this file (open up in IDLE, then run the file as normal)
+
+def digits(nr):
+    """
+    @param : integer
+    @return: digit length of nr
+    """
+    dig = 1
+    while nr > 10:
+        nr //= 10
+        dig += 1
+    return dig
+
 
 def test_getWordScore():
     """
     Unit test for getWordScore
     """
-    failure=False
-    # dictionary of words and scores
-    words = {("", 7):0, ("it", 7):4, ("was", 7):18, ("scored", 7):54, ("waybill", 7):155, ("outgnaw", 7):127, ("fork", 7):44, ("fork", 4):94}
+    failure = False
+    words = {("",        7):   0, ("it",      7):   4, ("was",  7): 18,
+             ("scored",  7):  54, ("waybill", 7): 155,
+             ("outgnaw", 7): 127, ("fork",    7):  44, ("fork", 4): 94}
     for (word, n) in words.keys():
         score = getWordScore(word, n)
-        if score != words[(word, n)]:
-            print "FAILURE: test_getWordScore()"
-            print "\tExpected", words[(word, n)], "points but got '" + str(score) + "' for word '" + word + "', n=" + str(n)
-            failure=True
+        eScore = words[(word, n)]
+        scSpace = ''
+        stSpace = ''
+        if score != eScore:
+            for l in range(3 - digits(eScore)):
+                scSpace += ' '
+            for l in range(7 - len(word)):
+                stSpace += ' '
+            print "FAILURE:",
+            print "Exp" + scSpace, eScore, \
+                "pnts /// got '" + str(score) + "' for '" \
+                + word + "'," + stSpace + " n = " + str(n)
+            failure = True
+        #else:
+        #    print "\tSUCCESS: for '" + word +"'"
     if not failure:
-        print "SUCCESS: test_getWordScore()"
+        print "SUCCESS: Test Get Word Score"
 
-# end of test_getWordScore
 
 def test_updateHand():
     """
@@ -95,7 +116,6 @@ def test_updateHand():
 
     print "SUCCESS: test_updateHand()"
 
-# end of test_updateHand
 
 def test_isValidWord(wordList):
     """
@@ -186,14 +206,17 @@ def test_isValidWord(wordList):
 
 
 wordList = loadWords()
-print "----------------------------------------------------------------------"
+print "======================================================================"
 print "Testing getWordScore..."
+print "-----------------------"
 test_getWordScore()
-print "----------------------------------------------------------------------"
+print "======================================================================"
 print "Testing updateHand..."
+print "-----------------------"
 test_updateHand()
-print "----------------------------------------------------------------------"
+print "======================================================================"
 print "Testing isValidWord..."
+print "-----------------------"
 test_isValidWord(wordList)
-print "----------------------------------------------------------------------"
+print "======================================================================"
 print "All done!"
