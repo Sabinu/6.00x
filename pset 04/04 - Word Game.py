@@ -2,11 +2,14 @@
 #
 # The 6.00 Word Game
 # Created  by: Kevin Luu <luuk> and Jenna Wiens <jwiens>
-# Modified by: Sarina Canelake <sarina>
+# Modified by: Sabin Purice
 
 
 import random as r
 import string
+import time
+
+WORDLIST_FILENAME = "words.txt"
 
 VOWELS = 'aeiou'
 CONSONANTS = 'bcdfghjklmnpqrstvwxyz'
@@ -17,13 +20,10 @@ SCRABBLE_LETTER_VALUES = {
     'f': 4, 'g':  2, 'h': 4, 'i': 1, 'j': 8,
     'k': 5, 'l':  1, 'm': 3, 'n': 1, 'o': 1,
     'p': 3, 'q': 10, 'r': 1, 's': 1, 't': 1,
-    'u': 1, 'v':  4, 'w': 4, 'x': 8, 'y': 4, 'z': 10
-}
+    'u': 1, 'v':  4, 'w': 4, 'x': 8, 'y': 4, 'z': 10}
 
 
-# -----------------------------------
-WORDLIST_FILENAME = "words.txt"
-def loadWords():
+def load_words():
     """
     @return: a list of valid words. Words are strings of lowercase letters.
     
@@ -31,16 +31,15 @@ def loadWords():
     take a while to finish.
     """
     print "Loading word list from file..."
-    # inFile: file
     inFile = open(WORDLIST_FILENAME, 'r', 0)
-    # wordList: list of strings
     wordList = []
     for line in inFile:
         wordList.append(line.strip().lower())
-    print "  ", len(wordList), "words loaded."
+    print "\t", len(wordList), "words loaded."
     return wordList
 
-def getFrequencyDict(sequence):
+
+def get_freq_dict(sequence):
     """
     @param sequence: string or list
     @return        : dictionary
@@ -53,10 +52,9 @@ def getFrequencyDict(sequence):
     for x in sequence:
         freq[x] = freq.get(x, 0) + 1
     return freq
-# -----------------------------------
 
 
-def getWordScore(word, n):
+def get_word_score(word, n):
     """
     @param word: string  - lowercase letters
     @param    n: integer - HAND_SIZE; i.e., hand size required for additional points)
@@ -83,14 +81,14 @@ def getWordScore(word, n):
         return score * len(word)
 
 
-def displayHand(hand):
+def hand_display(hand):
     """
     @param hand: dictionary - string -> int
 
     Problem #2:
     Displays the letters currently in the hand.
 
-    For example: displayHand({'a':1, 'x':2, 'l':3, 'e':1})
+    For example: hand_display({'a':1, 'x':2, 'l':3, 'e':1})
                  Should print out something like:
                     a x x l l l e
                  The order of the letters is unimportant.
@@ -101,7 +99,7 @@ def displayHand(hand):
     print
 
 
-def dealHand(n):
+def hand_deal(n):
     """
     @param n: integer    - int >= 0
     @return : dictionary - string -> int
@@ -127,7 +125,7 @@ def dealHand(n):
     return hand
 
 
-def updateHand(hand, word):
+def hand_update(hand, word):
     """
     @param hand: dictionary - string -> int
     @param word: string
@@ -153,29 +151,29 @@ def updateHand(hand, word):
     return new_hand
 
 
-def isValidWord(word, hand, wordList):
+def valid_word(word, hand, w_list):
     """
     @param word    : string
     @param hand    : dictionary - string -> int
-    @param wordList: list of lowercase strings
+    @param w_list: list of lowercase strings
 
     @return        : boolean
-                     True if word is in the wordList and is entirely
+                     True if word is in the word_list and is entirely
                      composed of letters in the hand. Otherwise, returns False.
 
-    Does not mutate hand or wordList.
+    Does not mutate hand or word_list.
     """
-    word_dic = getFrequencyDict(word)
+    word_dic = get_freq_dict(word)
     for l in word_dic:
         if word_dic[l] > hand.get(l, 0):
             return False
-    if word not in wordList:
+    if word not in w_list:
         return False
     else:
         return True
 
 
-def calculateHandlen(hand):
+def calc_hand_len(hand):
     """ 
     @param hand: dictionary - string -> int
     @return    : integer    - nr. of letters in the current hand.
@@ -186,10 +184,10 @@ def calculateHandlen(hand):
     return total
 
 
-def playHand(hand, wordList, n):
+def human_play_hand(hand, w_list, n):
     """
     @param hand    : dictionary - string -> int
-    @param wordList: list       - of lowercase strings
+    @param w_list: list       - of lowercase strings
     @param n       : integer    - HAND_SIZE; i.e., hand size required for additional points
 
     @return        : None
@@ -208,27 +206,105 @@ def playHand(hand, wordList, n):
     * The hand finishes when there are no more unused letters or the user inputs a "."
     """
     total_score = 0
-    while calculateHandlen(hand) > 0:
+    while calc_hand_len(hand) > 0:
         print '\nCurrent Hand:',
-        displayHand(hand)
+        hand_display(hand)
 
         word = raw_input('Enter %r[continue] or %r[terminate]: ' % ('word', '.'))
         if word == '.':
             break
         else:
-            if not isValidWord(word, hand, wordList):
+            if not valid_word(word, hand, w_list):
                 print 'Invalid word, please try again.'
             else:
-                total_score += getWordScore(word, n)
-                print '%r earned %s points. Total: %s points' % (word, getWordScore(word, n), total_score)
-                hand = updateHand(hand, word)
-        if calculateHandlen(hand) == 0:
+                total_score += get_word_score(word, n)
+                print '%r earned %s points. Total: %s points' % (word, get_word_score(word, n), total_score)
+                hand = hand_update(hand, word)
+        if calc_hand_len(hand) == 0:
             print '\nRan out of letters. Total score: %s points.' % total_score
             return
     print '>>> HUMAN Total score: %s points.\n' % total_score
 
 
-def playGame(wordList):
+def comp_valid_word(word, hand):
+    """
+    @param word    : string
+    @param hand    : dictionary - string -> int
+
+    @return        : boolean
+                     True if word is entirely composed of letters in the hand.
+                     False otherwise.
+
+    Does not mutate hand.
+    """
+    word_dic = get_freq_dict(word)
+    for l in word_dic:
+        if word_dic[l] > hand.get(l, 0):
+            return False
+    if word not in word_list:
+        return False
+    else:
+        return True
+
+
+def comp_choose_word(hand, w_list, n):
+    """
+    @param hand    : dictionary - string -> int
+    @param w_list: list       - of strings
+    @param n       : integer    - HAND_SIZE;
+                                  i.e., hand size required for additional points
+
+    @return        : string     - maximum score considering all words in word_list
+                     None       - no words can be made
+    """
+    max_score = 0
+    best_word = None
+    for word in w_list:
+        if comp_valid_word(word, hand):
+            score = get_word_score(word, n)
+            if score > max_score:
+                max_score = score
+                best_word = word
+    return best_word
+
+
+def comp_play_hand(hand, w_list, n):
+    """
+    @param hand    : dictionary - string -> int
+    @param w_list: list       - of lowercase strings
+    @param n       : integer    - HAND_SIZE; i.e., hand size required for additional points
+
+    @return        : None
+
+    Allows the computer to play the given hand, following the same procedure
+    as human_play_hand, except instead of the user choosing a word, the computer
+    chooses it.
+
+    1) The hand is displayed.
+    2) The computer chooses a word.
+    3) After every valid word: the word and the score for that word is
+    displayed, the remaining letters in the hand are displayed, and the
+    computer chooses another word.
+    4)  The sum of the word scores is displayed when the hand finishes.
+    5)  The hand finishes when the computer has exhausted its possible
+    choices (i.e. compChooseWord returns None).
+    """
+    total_score = 0
+    while calc_hand_len(hand) > 0:
+        print '\nCurrent Hand:',
+        hand_display(hand)
+
+        word = comp_choose_word(hand, w_list, n)
+        if word is None:
+            break
+        else:
+            total_score += get_word_score(word, n)
+            print '%r earned %s points. Total: %s points' % (word, get_word_score(word, n), total_score)
+            hand = hand_update(hand, word)
+    print '>>> COMPU Total score: %s points.\n' % total_score
+
+
+def one_play_game(w_list):
     """
     Allow the user to play an arbitrary number of hands.
 
@@ -247,31 +323,73 @@ def playGame(wordList):
             print '\nThank you for playing %r!' % 'The 6.00 Word Game'
             break
         elif user_input == 'n':
-            hand = dealHand(HAND_SIZE)
-            playHand(hand, wordList, HAND_SIZE)
+            hand = hand_deal(HAND_SIZE)
+            human_play_hand(hand, w_list, HAND_SIZE)
         elif user_input == 'r':
             if hand is None:
                 print 'You have not played a hand yet. Please play a new hand first!\n'
             else:
-                playHand(hand, wordList, HAND_SIZE)
+                human_play_hand(hand, w_list, HAND_SIZE)
         else:
             user_input = 'r'
             print 'Invalid command.\n'
 
+
+def two_play_game(w_list):
+    """
+    Allow the user to play an arbitrary number of hands.
+
+    1) Asks the user to input 'n' or 'r' or 'e'.
+        * If the user inputs 'e', immediately exit the game.
+        * If the user inputs anything that's not 'n', 'r', or 'e', keep asking them again.
+
+    2) Asks the user to input a 'u' or a 'c'.
+        * If the user inputs anything that's not 'c' or 'u', keep asking them again.
+
+    3) Switch functionality based on the above choices:
+        * If the user inputted 'n', play a new (random) hand.
+        * Else, if the user inputted 'r', play the last hand again.
+
+        * If the user inputted 'u', let the user play the game
+          with the selected hand, using human_play_hand.
+        * If the user inputted 'c', let the computer play the
+          game with the selected hand, using comp_play_hand.
+
+    4) After the computer or user has played the hand, repeat from step 1
+    """
+    hand, user_choice, user_input = None, 'n', None
+    while user_choice in ('n', 'r'):
+        try:
+            user_choice = raw_input('Enter n[new hand], r[replay hand] or e[end game]: ').lower()
+            if user_choice == 'e':
+                print '\nThank you for playing %r!' % 'The 6.00 Word Game'
+                break
+            elif user_choice == 'r':
+                if hand is None:
+                    raise LookupError('No hand played. Please play a new hand first!\n')
+            elif user_choice == 'n':
+                hand = hand_deal(HAND_SIZE)
+            else:
+                raise ValueError('Invalid command.\n')
+        except ValueError, msg:
+            user_choice = 'r'
+            print msg
+        except LookupError, msg:
+            print msg
+        else:
+            while user_input not in ('u', 'c') and user_choice is not None:
+                user_input = raw_input('\nEnter u[yourself] or c[computer]: ').lower()
+                if user_input not in ('u', 'c'):
+                    print 'Invalid command.'
+            else:
+                if user_input == 'u':
+                    human_play_hand(hand, w_list, HAND_SIZE)
+                else:
+                    comp_play_hand(hand, w_list, HAND_SIZE)
+                user_input = None
+
+
 # Build data structures used for entire session and play game
 if __name__ == '__main__':
-    wordList = loadWords()
-    playGame(wordList)
-
-## Case 01
-#playHand({'h': 1, 'i': 1, 'c': 1,
-#          'z': 1, 'm': 2, 'a': 1}, wordList, 7)  # him, cam
-## Case 02
-#playHand({'w': 1, 's': 1, 't': 2,
-#          'a': 1, 'o': 1, 'f': 1}, wordList, 7)  # tow, tasf, fast
-## Case 03
-#playHand({'n': 1, 'e': 1, 't': 1,
-#          'a': 1, 'r': 1, 'i': 2}, wordList, 7)  # inertia
-## Test with variable n; n >= lenHand
-#playHand({'n': 1, 'e': 0, 't': 0,
-#          'a': 1, 'r': 1, 'i': 1}, wordList, 4)  # rain
+    word_list = load_words()
+    two_play_game(word_list)
