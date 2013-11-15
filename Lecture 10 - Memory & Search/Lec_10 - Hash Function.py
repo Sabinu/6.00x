@@ -10,8 +10,9 @@ def loadWords():
     wordList = []
     for line in fin:
         wordList.append(line.strip().lower())
-    return wordList
     fin.close()
+    return wordList
+
 
 
 ##--------------------------------------------------------    

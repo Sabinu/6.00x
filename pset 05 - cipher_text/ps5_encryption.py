@@ -1,5 +1,4 @@
-# 6.00x Problem Set 5
-#
+# 6.00x  - Problem Set 5
 # Part 1 - HAIL CAESAR!
 
 import string
@@ -7,9 +6,8 @@ import random
 
 WORDLIST_FILENAME = "words.txt"
 
+
 # -----------------------------------
-# Helper code
-# (you don't need to understand this helper code)
 def loadWords():
     """
     Returns a list of valid words. Words are strings of lowercase letters.
@@ -23,23 +21,20 @@ def loadWords():
     print "  ", len(wordList), "words loaded."
     return wordList
 
+
 def isWord(wordList, word):
     """
-    Determines if word is a valid word.
+    Wrapper Function Determines if word is a valid word.
 
-    wordList: list of words in the dictionary.
-    word: a possible word.
-    returns True if word is in wordList.
+    @param wordList: list    - of strings(words) in the dictionary.
+    @param word    : string  - a possible word.
 
-    Example:
-    >>> isWord(wordList, 'bat') returns
-    True
-    >>> isWord(wordList, 'asdf') returns
-    False
+    @return        : boolean - True if word is in wordList.
     """
     word = word.lower()
     word = word.strip(" !@#$%^&*()-_+={}[]|\\:;'<>?,./\"")
     return word in wordList
+
 
 def randomWord(wordList):
     """
@@ -50,6 +45,7 @@ def randomWord(wordList):
     """
     return random.choice(wordList)
 
+
 def randomString(wordList, n):
     """
     Returns a string containing n random words from wordList
@@ -58,6 +54,7 @@ def randomString(wordList, n):
     returns: a string of random words separated by spaces.
     """
     return " ".join([randomWord(wordList) for _ in range(n)])
+
 
 def randomScrambled(wordList, n):
     """
@@ -81,26 +78,28 @@ def getStoryString():
     Returns a story in encrypted text.
     """
     return open("story.txt", "r").read()
-
-
-# (end of helper code)
 # -----------------------------------
 
 
 #
 # Problem 1: Encryption
-#
 def buildCoder(shift):
     """
-    Returns a dict that can apply a Caesar cipher to a letter.
-    The cipher is defined by the shift value. Ignores non-letter characters
-    like punctuation, numbers and spaces.
+    Builds cipher defined by the shift value.
 
-    shift: 0 <= int < 26
-    returns: dict
+    Ignores non-letter characters like punctuation, numbers and spaces.
+    @param shift: integer    - 0 <= __ < 26
+    @return     : dictionary - for Caesar cipher
     """
-    ### TODO.
-    return "Not yet implemented." # Remove this comment when you code the function
+    lower = string.ascii_lowercase
+    upper = string.ascii_uppercase
+    dict = {}
+    for i, l in enumerate(upper):
+        dict[l] = upper[(i+shift) % 26]
+    for i, l in enumerate(lower):
+        dict[l] = lower[(i+shift) % 26]
+    return dict
+
 
 def applyCoder(text, coder):
     """
@@ -110,8 +109,14 @@ def applyCoder(text, coder):
     coder: dict with mappings of characters to shifted characters
     returns: text after mapping coder chars to original text
     """
-    ### TODO.
-    return "Not yet implemented." # Remove this comment when you code the function
+    mapp = ''
+    for l in text:
+        if l in coder.keys():
+            mapp += coder[l]
+        else:
+            mapp += l
+    return mapp
+
 
 def applyShift(text, shift):
     """
@@ -153,14 +158,13 @@ def decryptStory():
     ### TODO.
     return "Not yet implemented."  # Remove this comment when you code the function
 
-#
-# Build data structures used for entire session and run encryption
 
-if __name__ == '__main__':
-    # To test findBestShift:
-    wordList = loadWords()
-    s = applyShift('Hello, world!', 8)
-    bestShift = findBestShift(wordList, s)
-    assert applyShift(s, bestShift) == 'Hello, world!'
-    # To test decryptStory, comment the above four lines and uncomment this line:
-    #    decryptStory()
+# Build data structures used for entire session and run encryption
+#if __name__ == '__main__':
+#    # To test findBestShift:
+#    wordList = loadWords()
+#    s = applyShift('Hello, world!', 8)
+#    bestShift = findBestShift(wordList, s)
+#    assert applyShift(s, bestShift) == 'Hello, world!'
+#    # To test decryptStory, comment the above four lines and uncomment this line:
+#    #    decryptStory()
