@@ -73,6 +73,7 @@ def randomScrambled(wordList, n):
     shifts = [(i, random.randint(0, 25)) for i in range(len(s)) if s[i-1] == ' ']
     return applyShifts(s, shifts)[:-1]
 
+
 def getStoryString():
     """
     Returns a story in encrypted text.
@@ -81,8 +82,7 @@ def getStoryString():
 # -----------------------------------
 
 
-#
-# Problem 1: Encryption
+#   Problem 1: Encryption
 def buildCoder(shift):
     """
     Builds cipher defined by the shift value.
@@ -129,13 +129,10 @@ def applyShift(text, shift):
     shift: amount to shift the text (0 <= int < 26)
     returns: text after being shifted by specified amount.
     """
-    ### TODO.
-    ### HINT: This is a wrapper function.
-    return "Not yet implemented."  # Remove this comment when you code the function
+    return applyCoder(text, buildCoder(shift))
 
-#
-# Problem 2: Decryption
-#
+
+#   Problem 2: Decryption
 def findBestShift(wordList, text):
     """
     Finds a shift key that can decrypt the encoded text.
@@ -143,8 +140,19 @@ def findBestShift(wordList, text):
     text: string
     returns: 0 <= int < 26
     """
-    ### TODO
-    return "Not yet implemented."  # Remove this comment when you code the function
+    best_shift = 0
+    best_found_words = 0
+    for i in range(26):
+        shift = applyShift(text, i)
+        shift_words = shift.split(' ')
+        found_words = 0
+        for w in shift_words:
+            if isWord(wordList, w):
+                found_words += 1
+        if found_words > best_found_words:
+            best_shift, best_found_words = i, found_words
+    return best_shift
+
 
 def decryptStory():
     """
@@ -155,16 +163,40 @@ def decryptStory():
 
     returns: string - story in plain text
     """
-    ### TODO.
-    return "Not yet implemented."  # Remove this comment when you code the function
+    story = getStoryString()
+    wordlist = loadWords()
+    shift = findBestShift(wordlist, story)
+    return applyShift(story, shift)
+
+
+def insertNewlines(text, lineLength):
+    """
+    Given text and a desired line length, wrap the text as a typewriter would.
+    Insert a newline character ("\n") after each word that reaches or exceeds
+    the desired line length.
+
+    text: a string containing the text to wrap.
+    line_length: the number of characters to include on a line before wrapping
+        the next word.
+    returns: a string, with newline characters inserted appropriately.
+    """
+    if len(text) < lineLength:
+        return text + '\n'
+    i = lineLength - 1
+    while text[i] != ' ' and i < len(text)-1:
+        i += 1
+    return text[:i] + '\n' + insertNewlines(text[i+1:], lineLength)
 
 
 # Build data structures used for entire session and run encryption
-#if __name__ == '__main__':
-#    # To test findBestShift:
-#    wordList = loadWords()
-#    s = applyShift('Hello, world!', 8)
-#    bestShift = findBestShift(wordList, s)
-#    assert applyShift(s, bestShift) == 'Hello, world!'
-#    # To test decryptStory, comment the above four lines and uncomment this line:
-#    #    decryptStory()
+if __name__ == '__main__':
+    ## To test findBestShift:
+    #wordList = loadWords()
+    #s = applyShift('Hello, world!', 8)
+    #print s
+    #bestShift = findBestShift(wordList, s)
+    #print bestShift, applyShift(s, bestShift)
+
+    #To test decryptStory, comment the above four lines and uncomment this line:
+    decripted = decryptStory()
+    print '\n', insertNewlines(decripted, 36)

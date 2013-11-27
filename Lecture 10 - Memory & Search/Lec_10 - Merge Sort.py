@@ -28,8 +28,8 @@ def merge_sort(L, compare=operator.lt):
     """
     Merge-Sort Algorithm.
     """
-    global num
-    print '===', num, L
+    # global num
+    # print '===', num, L
     if len(L) < 2:
         return L[:]
     else:
@@ -38,9 +38,9 @@ def merge_sort(L, compare=operator.lt):
         left = merge_sort(L[:middle], compare)
         num[1] += 1
         right = merge_sort(L[middle:], compare)
-        print '++++++++++', left, right,
-        print '>>>', merge(left, right, compare)
-        return merge(left, right, compare)
+        # print '++++++++++', left, right,
+        # print '>>>', merge(left, right, compare)
+        # return merge(left, right, compare)
 
 print'___________________________'
 lst = [1, 5, 8, 4, 3, 0, 2, 7, 6, 9]
