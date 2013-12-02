@@ -1,0 +1,10 @@
+# Trigger File
+# if you've done through part 11 but no stories are popping up, you should
+# edit this file to contain triggers that will fire on current news stories!
+
+t1 SUBJECT Apple
+t2 TITLE Intel
+t3 PHRASE Paul Walker
+t4 OR t2 t3
+
+ADD t4

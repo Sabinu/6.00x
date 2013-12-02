@@ -177,25 +177,25 @@ def buildDTree(sofar, todo):
 
 
 def DFSDTree(root, valueFcn, constraintFcn):
-    queue = [root]
+    stack = [root]
     best = None
     visited = 0
-    while len(queue) > 0:
+    while len(stack) > 0:
         visited += 1
-        if constraintFcn(queue[0].getValue()):
+        if constraintFcn(stack[0].getValue()):
             if best == None:
-                best = queue[0]
+                best = stack[0]
                 print best.getValue()
-            elif valueFcn(queue[0].getValue()) > valueFcn(best.getValue()):
-                best = queue[0]
+            elif valueFcn(stack[0].getValue()) > valueFcn(best.getValue()):
+                best = stack[0]
                 print best.getValue()
-            temp = queue.pop(0)
+            temp = stack.pop(0)
             if temp.getRightBranch():
-                queue.insert(0, temp.getRightBranch())
+                stack.insert(0, temp.getRightBranch())
             if temp.getLeftBranch():
-                queue.insert(0, temp.getLeftBranch())
+                stack.insert(0, temp.getLeftBranch())
         else:
-            queue.pop(0)
+            stack.pop(0)
     print 'visited', visited
     return best
 
@@ -207,7 +207,7 @@ def BFSDTree(root, valueFcn, constraintFcn):
     while len(queue) > 0:
         visited += 1
         if constraintFcn(queue[0].getValue()):
-            if best == None:
+            if best is None:
                 best = queue[0]
                 print best.getValue()
             elif valueFcn(queue[0].getValue()) > valueFcn(best.getValue()):
@@ -221,12 +221,12 @@ def BFSDTree(root, valueFcn, constraintFcn):
         else:
             queue.pop(0)
     print 'visited', visited
-    return best  
+    return best
 
-a = [6,3]
-b = [7,2]
-c = [8,4]
-d = [9,5]
+a = [6, 3]
+b = [7, 2]
+c = [8, 4]
+d = [9, 5]
 
 treeTest = buildDTree([], [a,b,c,d])
 
@@ -248,13 +248,12 @@ def WeightsBelow10(lst):
 def WeightsBelow6(lst):
     return sumWeights(lst) <= 6
 
-print ''
-print 'DFS decision tree'
+
+print '\nDFS decision tree'
 foobar = DFSDTree(treeTest, sumValues, WeightsBelow10)
 print foobar.getValue()
 
-print ''
-print 'BFS decision tree'
+print '\nBFS decision tree'
 foobarnew = BFSDTree(treeTest, sumValues, WeightsBelow10)
 print foobarnew.getValue()
 
@@ -318,20 +317,18 @@ def atLeast15(lst):
 
 print ''
 print 'DFS decision tree good enough'
-foobar = DFSDTreeGoodEnough(treeTest, sumValues, WeightsBelow10,
-                                   atLeast15)
+foobar = DFSDTreeGoodEnough(treeTest, sumValues, WeightsBelow10, atLeast15)
 print foobar.getValue()
 
 print ''
 print 'BFS decision tree good enough'
-foobarnew = BFSDTreeGoodEnough(treeTest, sumValues, WeightsBelow10,
-                                      atLeast15)
+foobarnew = BFSDTreeGoodEnough(treeTest, sumValues, WeightsBelow10, atLeast15)
 print foobarnew.getValue()
 
 
 def DTImplicit(toConsider, avail):
     if toConsider == [] or avail == 0:
-        result = (0, ())
+        result = (0, [])
     elif toConsider[0][1] > avail:
         result = DTImplicit(toConsider[1:], avail)
     else:
@@ -340,7 +337,7 @@ def DTImplicit(toConsider, avail):
         withVal += nextItem[0]
         withoutVal, withoutToTake = DTImplicit(toConsider[1:], avail)
         if withVal > withoutVal:
-            result = (withVal, withToTake + (nextItem,))
+            result = (withVal, withToTake + [nextItem])
         else:
             result = (withoutVal, withoutToTake)
     return result
@@ -349,12 +346,10 @@ stuff = [a, b, c, d]
 
 val, taken = DTImplicit(stuff, 10)
 
-print ''
-print 'implicit decision search'
-print 'value of stuff'
-print val
-print 'actual stuff'
-print taken
+
+print '\nImplicit decision search'
+print '\tValue of stuff:', val
+print '\tActual stuff:', taken
 
 
 def DFSBinaryNoLoop(root, fcn):
@@ -375,9 +370,10 @@ def DFSBinaryNoLoop(root, fcn):
                     queue.insert(0, temp.getLeftBranch())
     return False
 
-##comment out
 
 n3.setLeftBranch(n5)
 n5.setParent(n3)
 
-# run DFSBinary(n5, find6)
+#DFSBinary(n5, find6)
+print '\nDFS Binary NoLoop'
+DFSBinaryNoLoop(n5, find6)
