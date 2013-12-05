@@ -1,9 +1,9 @@
 # An iterative "Pythonic" search procedure:
 def search(list, element):
     for e in list:
-if e == element: 
-   return True
-     return False
+        if e == element:
+            return True
+    return False
 
 
 # The recursive way:
