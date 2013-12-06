@@ -108,24 +108,26 @@ class MortgagePlots(object):
 
 def plotMortgages(morts, amt):
     styles = ['b-', 'r-.', 'g:']
-    payments = 0    # number to identify a figure
-    cost = 1        # number to identify a figure
+    payments, cost = 0, 1           # number to identify a figure
+
     pylab.figure(payments)
-    pylab.title('Monthly Payments of Different $' + str(amt)
-                + ' Mortgages')
+    pylab.title('Monthly Payments of Different $' + str(amt) + ' Mortgages')
     pylab.xlabel('Months')
     pylab.ylabel('Monthly Payments')
+
     pylab.figure(cost)
     pylab.title('Cost of Different $' + str(amt) + ' Mortgages')
     pylab.xlabel('Months')
     pylab.ylabel('Total Payments')
+
     for i in range(len(morts)):
         pylab.figure(payments)
         morts[i].plotPayments(styles[i])
         pylab.figure(cost)
         morts[i].plotTotPd(styles[i])
+
     pylab.figure(payments)
-    pylab.legend(loc='upper center')
+    pylab.legend(loc='best')  # upper center
     pylab.figure(cost)
     pylab.legend(loc='best')
 
@@ -144,13 +146,13 @@ def compareMortgages(amt, years, fixedRate, pts, ptsRate,
     plotMortgages(morts, amt)
 
 
-compareMortgages(amt        =200000,
-                 years      =    30,
-                 fixedRate  =  0.07,
-                 pts        =  3.25,
-                 ptsRate    =  0.05,
-                 varRate1   = 0.045,
-                 varRate2   = 0.095,
-                 varMonths  =    48)
+compareMortgages(amt        = 200000,
+                 years      =     30,
+                 fixedRate  =   0.07,
+                 pts        =   3.25,
+                 ptsRate    =   0.05,
+                 varRate1   =  0.045,
+                 varRate2   =  0.095,
+                 varMonths  =     48)
 
 pylab.show()
