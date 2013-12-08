@@ -183,7 +183,7 @@ def DFSDTree(root, valueFcn, constraintFcn):
     while len(stack) > 0:
         visited += 1
         if constraintFcn(stack[0].getValue()):
-            if best == None:
+            if best is None:
                 best = stack[0]
                 print best.getValue()
             elif valueFcn(stack[0].getValue()) > valueFcn(best.getValue()):

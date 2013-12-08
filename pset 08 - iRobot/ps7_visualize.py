@@ -8,9 +8,11 @@ import time
 
 from Tkinter import *
 
+
 class RobotVisualization:
     def __init__(self, num_robots, width, height, delay = 0.2):
-        "Initializes a visualization with the specified parameters."
+        """ Initializes a visualization with the specified parameters. """
+
         # Number of seconds to pause after each frame
         self.delay = delay
 
@@ -36,8 +38,7 @@ class RobotVisualization:
             for j in range(height):
                 x1, y1 = self._map_coords(i, j)
                 x2, y2 = self._map_coords(i + 1, j + 1)
-                self.tiles[(i, j)] = self.w.create_rectangle(x1, y1, x2, y2,
-                                                             fill = "gray")
+                self.tiles[(i, j)] = self.w.create_rectangle(x1, y1, x2, y2, fill = "gray")
 
         # Draw gridlines
         for i in range(width + 1):
@@ -51,24 +52,24 @@ class RobotVisualization:
 
         # Draw some status text
         self.robots = None
-        self.text = self.w.create_text(25, 0, anchor=NW,
-                                       text=self._status_string(0, 0))
+        self.text = self.w.create_text(25, 0, anchor=NW, text=self._status_string(0, 0))
         self.time = 0
         self.master.update()
 
     def _status_string(self, time, num_clean_tiles):
-        "Returns an appropriate status string to print."
+        """ Returns an appropriate status string to print. """
         percent_clean = 100 * num_clean_tiles / (self.width * self.height)
         return "Time: %04d; %d tiles (%d%%) cleaned" % \
             (time, num_clean_tiles, percent_clean)
 
     def _map_coords(self, x, y):
-        "Maps grid positions to window positions (in pixels)."
+        """ Maps grid positions to window positions (in pixels). """
         return (250 + 450 * ((x - self.width / 2.0) / self.max_dim),
                 250 + 450 * ((self.height / 2.0 - y) / self.max_dim))
 
     def _draw_robot(self, position, direction):
-        "Returns a polygon representing a robot with the specified parameters."
+        """ Returns a polygon representing a robot with the specified parameters. """
+
         x, y = position.getX(), position.getY()
         d1 = direction + 165
         d2 = direction - 165
@@ -80,17 +81,20 @@ class RobotVisualization:
         return self.w.create_polygon([x1, y1, x2, y2, x3, y3], fill="red")
 
     def update(self, room, robots):
-        "Redraws the visualization with the specified room and robot state."
+        """ Redraws the visualization with the specified room and robot state. """
+
         # Removes a gray square for any tiles have been cleaned.
         for i in range(self.width):
             for j in range(self.height):
                 if room.isTileCleaned(i, j):
                     self.w.delete(self.tiles[(i, j)])
+
         # Delete all existing robots.
         if self.robots:
             for robot in self.robots:
                 self.w.delete(robot)
                 self.master.update_idletasks()
+
         # Draw new robots
         self.robots = []
         for robot in robots:
@@ -102,6 +106,7 @@ class RobotVisualization:
                                                   fill = "black"))
             self.robots.append(
                 self._draw_robot(robot.getRobotPosition(), robot.getRobotDirection()))
+
         # Update text
         self.w.delete(self.text)
         self.time += 1
@@ -112,6 +117,7 @@ class RobotVisualization:
         time.sleep(self.delay)
 
     def done(self):
-        "Indicate that the animation is done so that we allow the user to close the window."
+        """ Indicate that the animation is done
+            so that we allow the user to close the window. """
         mainloop()
 
