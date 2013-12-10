@@ -2,7 +2,7 @@
 
 import math
 import random
-import ps7_visualize
+import ps7_visualize as pv
 import pylab
 
 from ps7_verify_movement27 import testRobotMovement
@@ -224,12 +224,24 @@ class StandardRobot(Robot):
             self.room.cleanTileAtPosition(self.position)
         else:
             while not self.room.isPositionInRoom(new_position):
-                new_position = self.position.getNewPosition(self.direction, self.speed)
                 self.direction = random.randrange(360)
+                new_position = self.position.getNewPosition(self.direction, self.speed)
 
 
 # Uncomment this line to see your implementation of StandardRobot in action!
 # testRobotMovement(StandardRobot, RectangularRoom)
+
+
+def test_robot_mov(room, robots, min_coverage):
+    viz = pv.RobotVisualization(len(robots), room.width, room.height, delay=0.01)
+    while (room.getNumCleanedTiles() / float(room.getNumTiles())) < min_coverage:
+        for r in robots:
+            r.updatePositionAndClean()
+        viz.update(room, robots)
+    viz.done()
+
+camera = RectangularRoom(50, 50)
+test_robot_mov(camera, [StandardRobot(camera, 1)], 0.8)
 
 
 # === Problem 3
@@ -253,7 +265,7 @@ def runSimulation(num_robots, speed, width, height, min_coverage, num_trials,
     """
     raise NotImplementedError
 
-avg = runSimulation(10, 1.0, 15, 20, 0.8, 30, StandardRobot)
+# avg = runSimulation(10, 1.0, 15, 20, 0.8, 30, StandardRobot)
 
 
 # === Problem 4
@@ -295,7 +307,7 @@ def showPlot2(title, x_label, y_label):
     times1 = []
     times2 = []
     for width in [10, 20, 25, 50]:
-        height = 300/width
+        height = 300 / width
         print "Plotting cleaning time for a room of width:", width, "by height:", height
         aspect_ratios.append(float(width) / height)
         times1.append(runSimulation(2, 1.0, width, height, 0.8, 200, StandardRobot))

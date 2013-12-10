@@ -40,7 +40,7 @@ class RobotVisualization:
                 x2, y2 = self._map_coords(i + 1, j + 1)
                 self.tiles[(i, j)] = self.w.create_rectangle(x1, y1, x2, y2, fill = "gray")
 
-        # Draw gridlines
+        # Draw grid-lines
         for i in range(width + 1):
             x1, y1 = self._map_coords(i, 0)
             x2, y2 = self._map_coords(i, height)
@@ -120,4 +120,3 @@ class RobotVisualization:
         """ Indicate that the animation is done
             so that we allow the user to close the window. """
         mainloop()
-
