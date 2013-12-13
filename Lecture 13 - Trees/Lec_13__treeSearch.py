@@ -132,8 +132,8 @@ BFSBinary(n5, find6)
 print '\nDFS Ordered'
 DFSBinaryOrdered(n5, find6, lt6)
 
-## if we wanted to return the path that got to the goal, would need to modify
 
+## if we wanted to return the path that got to the goal, would need to modify
 def DFSBinaryPath(root, fcn):
     queue = [root]
     while len(queue) > 0:
@@ -228,7 +228,7 @@ b = [7, 2]
 c = [8, 4]
 d = [9, 5]
 
-treeTest = buildDTree([], [a,b,c,d])
+treeTest = buildDTree([], [a, b, c, d])
 
 
 def sumValues(lst):
@@ -265,7 +265,7 @@ def DFSDTreeGoodEnough(root, valueFcn, constraintFcn, stopFcn):
     while len(stack) > 0:
         visited += 1
         if constraintFcn(stack[0].getValue()):
-            if best == None:
+            if best is None:
                 best = stack[0]
                 print best.getValue()
             elif valueFcn(stack[0].getValue()) > valueFcn(best.getValue()):
@@ -292,7 +292,7 @@ def BFSDTreeGoodEnough(root, valueFcn, constraintFcn, stopFcn):
     while len(queue) > 0:
         visited += 1
         if constraintFcn(queue[0].getValue()):
-            if best == None:
+            if best is None:
                 best = queue[0]
                 print best.getValue()
             elif valueFcn(queue[0].getValue()) > valueFcn(best.getValue()):

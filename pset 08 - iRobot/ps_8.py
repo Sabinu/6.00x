@@ -240,13 +240,13 @@ def test_robot_mov(room, robots, min_coverage):
         viz.update(room, robots)
     viz.done()
 
-camera = RectangularRoom(50, 50)
-test_robot_mov(camera, [StandardRobot(camera, 1)], 0.8)
+#camera = RectangularRoom(50, 50)
+#test_robot_mov(camera, [StandardRobot(camera, 1)], 0.8)
 
 
 # === Problem 3
-def runSimulation(num_robots, speed, width, height, min_coverage, num_trials,
-                  robot_type):
+def runSimulation(num_robots, speed, width, height,
+                  min_coverage, num_trials, robot_type):
     """
     Runs NUM_TRIALS trials of the simulation and returns the mean number of
     time-steps needed to clean the fraction MIN_COVERAGE of the room.
@@ -263,9 +263,10 @@ def runSimulation(num_robots, speed, width, height, min_coverage, num_trials,
     robot_type  : class of robot to be instantiated (e.g. StandardRobot or
                   RandomWalkRobot)
     """
+    room = RectangularRoom(width, height)
     raise NotImplementedError
 
-# avg = runSimulation(10, 1.0, 15, 20, 0.8, 30, StandardRobot)
+avg = runSimulation(10, 1.0, 15, 20, 0.8, 30, StandardRobot)
 
 
 # === Problem 4
