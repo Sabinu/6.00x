@@ -137,10 +137,10 @@ class Family(object):
         r_list = self.path(a)
         l_list = self.path(b)
 
-        #  Same Object - Same Path
+        #   Same Object - Same Path
         if r_list == l_list:
             return -1, 0
-        #  One Object is a Direct Descendant of the Other
+        #   One Object is a Direct Descendant of the Other
         if right in l_list or left in r_list:
             e1 = max(len(r_list), len(l_list))
             e2 = min(len(r_list), len(l_list))
@@ -149,14 +149,15 @@ class Family(object):
         r_list.reverse()
         l_list.reverse()
 
+        #   Remove all - except different
         while r_list[0] == l_list[0]:
             e = r_list[0]
             r_list.remove(e)
             l_list.remove(e)
 
-        if len(r_list) == len(l_list):
+        if len(r_list) == len(l_list):              # Zero Degree Removed
             return len(r_list) - 1, 0
-        else:
+        else:                                       # Calculate Removed Degree
             out1 = min(len(r_list), len(l_list))
             out2 = len(r_list) - len(l_list)
             return out1 - 1, abs(out2)
