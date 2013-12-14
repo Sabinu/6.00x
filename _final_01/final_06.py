@@ -132,8 +132,8 @@ class Family(object):
         a -- string that is the name of a
         b -- string that is the name of b
         """
-        right = self.names_to_nodes[a]
-        left = self.names_to_nodes[b]
+        right  = self.names_to_nodes[a]
+        left   = self.names_to_nodes[b]
         r_list = self.path(a)
         l_list = self.path(b)
 
