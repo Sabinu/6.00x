@@ -8,3 +8,6 @@ def gen_fib():
         next = fibn_1 + fibn_2
         yield next
         fibn_1, fibn_2 = fibn_2, next
+
+print gen_fib().next()
+print gen_fib().next()

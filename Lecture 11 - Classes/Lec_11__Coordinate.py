@@ -2,7 +2,7 @@ import math
 
 
 def sq(x):
-    return x**2
+    return x ** 2
 
 
 class Coordinate(object):
@@ -11,7 +11,7 @@ class Coordinate(object):
         self.y = y
 
     def __str__(self):
-        return '<' + self.x + ',' + self.y + '>'
+        return '<' + str(self.x) + ',' + str(self.y) + '>'
 
     def distance(self, other):
         return math.sqrt(sq(self.x - other.x)

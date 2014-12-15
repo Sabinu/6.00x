@@ -4,11 +4,10 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e5168c0d-a345-4438-9d2d-ab1332199f2e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="e5168c0d-a345-4438-9d2d-ab1332199f2e" name="Default" comment="" />
     <ignored path="6.00x.iws" />
     <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +33,38 @@
     </favorites_list>
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf>
+          <file leaf-file-name="Stereo_70.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Stereo_70.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.87661576" vertical-offset="469" max-vertical-offset="1320">
+                  <caret line="84" column="26" selection-start-line="84" selection-start-column="26" selection-end-line="84" selection-end-column="26" />
+                  <folding>
+                    <element signature="e#528#625#0" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="Stereo_70_Buc_Start.csv" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Stereo_70_Buc_Start.csv">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.017626323" vertical-offset="75" max-vertical-offset="40530">
+                  <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -50,33 +80,21 @@
       <MyDateState />
     </option>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/pset 08 - iRobot/ps_8.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
-    <option name="changedFiles">
+    <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pset 01/pset_01 p_01 - Counting Vowels.py" />
-        <option value="$PROJECT_DIR$/pset 02/pset_02 p_01 - paying the minimum.py" />
-        <option value="$PROJECT_DIR$/pset 03/pset_03 p_02 - hangman.py" />
-        <option value="$PROJECT_DIR$/pset 01/pset_01 p_02 - Counting Bobs.py" />
-        <option value="$PROJECT_DIR$/test_03.py" />
-        <option value="$PROJECT_DIR$/pset 01/pset_01 p_03 - Alphabetical Substrings.py" />
-        <option value="$PROJECT_DIR$/pset 03/pset_03 Hangman UF.py" />
-        <option value="$PROJECT_DIR$/pset 02/pset_02 p_02 - paying debt off in a year.py" />
-        <option value="$PROJECT_DIR$/pset 02/pset_02 p_03 - Bisection Debt Search.py" />
-        <option value="$PROJECT_DIR$/pset 03/tinker.py" />
-        <option value="$PROJECT_DIR$/tinker.py" />
-        <option value="$PROJECT_DIR$/Lecture 7/Lec7__p_04.py" />
-        <option value="$PROJECT_DIR$/Lecture 7/Lec7__p_05.py" />
-        <option value="$USER_HOME$/Downloads/6-00sc-spring-2011/6-00sc-spring-2011/contents/unit-1/lecture-7-debugging/lec07.py" />
-        <option value="$PROJECT_DIR$/_teste_random.py" />
-        <option value="$PROJECT_DIR$/Lecture 5/Lec5-fibMetered.py" />
+        <option value="$PROJECT_DIR$/Stereo_70 - Oana.py" />
+        <option value="$PROJECT_DIR$/Stereo_70.py" />
+        <option value="$PROJECT_DIR$/../../_iPy Notebooks/_my_notebooks/6.00x - Lecture 5 - Recursion.ipynb" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-4" />
-    <option name="y" value="-4" />
-    <option name="width" value="1688" />
-    <option name="height" value="1028" />
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -91,10 +109,13 @@
           <State>
             <id>Python</id>
           </State>
+          <State>
+            <id>Spelling</id>
+          </State>
         </expanded-state>
         <selected-state>
           <State>
-            <id>Annotator</id>
+            <id>HTML</id>
           </State>
         </selected-state>
       </profile-state>
@@ -114,7 +135,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -126,7 +147,51 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scope">
+        <subPane subId="Default">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="6.00x">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT=".idea">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="6.00x">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT=".idea">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="dictionaries">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+        <subPane subId="Problems" />
+        <subPane subId="Changed Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -152,92 +217,60 @@
   <component name="PropertiesComponent">
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="151" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="153" />
-    <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="recentsLimit" value="5" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="options.splitter.main.proportions" value="0.2975" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="151" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="recentsLimit" value="5" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../_Nodebox" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="156" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="950" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="950" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="950" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="156" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="153" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
-    <property name="FullScreen" value="false" />
+    <property name="FullScreen" value="true" />
     <property name="options.splitter.details.proportions" value="0.3037215" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
-    <property name="full.screen.before.presentation.mode" value="true" />
+    <property name="full.screen.before.presentation.mode" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
-    <property name="options.lastSelected" value="com.jetbrains.python.configuration.PythonSdkConfigurable" />
+    <property name="options.lastSelected" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
+    <property name="SearchEverywhereHistory" value="" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="options.searchVisible" value="true" />
+    <property name="SearchEverywhereHistoryKey" value="__main__&#9;null&#9;null&#10;write&#9;null&#9;null" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
-      <PyConsoleSettings />
+      <console-settings module-name="6.00x" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="6.00x" />
+      </console-settings>
     </option>
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Lecture 7" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/pset 03" />
-      <recent name="E:\Sabin\Dropbox\WGA\____Research\_Python\6.00x\pset 01" />
-      <recent name="E:\Sabin\Dropbox\WGA\____Research\_Python\6.00x\Lecture 4" />
+      <recent name="C:\Users\Condes\Dropbox\____Research\_Python\6.00x" />
+      <recent name="E:\Sabin\Dropbox\WGA\____Research\_Python\6.00x\pset 07 - rss" />
+      <recent name="E:\Sabin\Dropbox\WGA\____Research\_Python\6.00x\Lecture 12 - Object Oriented Programming" />
+      <recent name="E:\Sabin\Dropbox\WGA\____Research\_Python\6.00x\Lecture 11 - Classes" />
+      <recent name="$PROJECT_DIR$/Lecture 9 - Efficiency &amp; Orders of Growth" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Lecture 7" />
-      <recent name="$PROJECT_DIR$/Lecture 6" />
-      <recent name="$PROJECT_DIR$" />
+      <recent name="E:\Sabin\Dropbox\WGA\____Research\_Python\6.00x\Lecture 12 - Object Oriented Programming" />
+      <recent name="$PROJECT_DIR$/Lecture 11 - Classes" />
       <recent name="E:\Sabin\Dropbox\WGA\____Research\_Python\6.00x" />
+      <recent name="$PROJECT_DIR$/_Quiz" />
+      <recent name="$PROJECT_DIR$/Lecture 7" />
     </key>
   </component>
-  <component name="RunManager" selected="Python._teste_random">
-    <configuration default="false" name="pset_02 p_03 - Bisection Debt Search" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pset 02" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="6.00x" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pset 02/pset_02 p_03 - Bisection Debt Search.py" />
-      <option name="PARAMETERS" value="" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="pset_02 p_02 - paying debt off in a year" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pset 02" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="6.00x" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pset 02/pset_02 p_02 - paying debt off in a year.py" />
-      <option name="PARAMETERS" value="" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="tinker" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.Stereo_70 - Oana">
+    <configuration default="false" name="bitcoin - merkle tree 02" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -250,13 +283,14 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="6.00x" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tinker.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bitcoin - merkle tree 02.py" />
       <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="_teste_random" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="json" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -269,27 +303,49 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="6.00x" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_teste_random.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/json.py" />
       <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="Lec7__p_05" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="Lec_12__gen_Primes" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lecture 7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lecture 12 - Object Oriented Programming" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="6.00x" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lecture 7/Lec7__p_05.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lecture 12 - Object Oriented Programming/Lec_12__gen_Primes.py" />
       <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Lec_12__genFib" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lecture 12 - Object Oriented Programming" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="6.00x" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lecture 12 - Object Oriented Programming/Lec_12__genFib.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
@@ -355,6 +411,7 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
       <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
@@ -418,84 +475,254 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
+    <configuration default="false" name="Stereo_70 - Oana" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="6.00x" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Stereo_70.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <RunnerSettings RunnerId="PyDebugRunner" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PyDebugRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.pset_02 p_03 - Bisection Debt Search" />
-      <item index="1" class="java.lang.String" itemvalue="Python.pset_02 p_02 - paying debt off in a year" />
-      <item index="2" class="java.lang.String" itemvalue="Python.tinker" />
-      <item index="3" class="java.lang.String" itemvalue="Python._teste_random" />
-      <item index="4" class="java.lang.String" itemvalue="Python.Lec7__p_05" />
+      <item index="0" class="java.lang.String" itemvalue="Python.Stereo_70 - Oana" />
+      <item index="1" class="java.lang.String" itemvalue="Python.bitcoin - merkle tree 02" />
+      <item index="2" class="java.lang.String" itemvalue="Python.json" />
+      <item index="3" class="java.lang.String" itemvalue="Python.Lec_12__gen_Primes" />
+      <item index="4" class="java.lang.String" itemvalue="Python.Lec_12__genFib" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python._teste_random" />
-        <item index="1" class="java.lang.String" itemvalue="Python.Lec7__p_05" />
-        <item index="2" class="java.lang.String" itemvalue="Python.tinker" />
-        <item index="3" class="java.lang.String" itemvalue="Python.pset_02 p_03 - Bisection Debt Search" />
-        <item index="4" class="java.lang.String" itemvalue="Python.pset_02 p_02 - paying debt off in a year" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Python.Lec_12__genFib" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Lec_12__gen_Primes" />
+        <item index="2" class="java.lang.String" itemvalue="Python.json" />
+        <item index="3" class="java.lang.String" itemvalue="Python.bitcoin - merkle tree 02" />
       </list>
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
-  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
-    <option name="USER" value="" />
-    <option name="PASSWORD" value="" />
-    <option name="mySSHConnectionTimeout" value="30000" />
-    <option name="mySSHReadTimeout" value="30000" />
-    <option name="LAST_MERGED_REVISION" />
-    <option name="MERGE_DRY_RUN" value="false" />
-    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
-    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
-    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
-    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
-    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
-    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
-    <option name="FORCE_UPDATE" value="false" />
-    <option name="IGNORE_EXTERNALS" value="false" />
-    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  <component name="SvnConfiguration" myUseAcceleration="nothing">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="e5168c0d-a345-4438-9d2d-ab1332199f2e" name="Default" comment="" />
       <created>1376902206243</created>
+      <option name="number" value="Default" />
       <updated>1376902206243</updated>
     </task>
     <task id="LOCAL-00001" summary="0001">
       <created>1383407187873</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
       <updated>1383407187873</updated>
     </task>
     <task id="LOCAL-00002" summary="0001">
       <created>1383407201640</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
       <updated>1383407201640</updated>
     </task>
     <task id="LOCAL-00003" summary="0001">
       <created>1383419948918</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
       <updated>1383419948918</updated>
     </task>
     <task id="LOCAL-00004" summary="clear _teste_random">
       <created>1383482523304</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
       <updated>1383482523305</updated>
     </task>
     <task id="LOCAL-00005" summary="Lecture 7 Problem 4">
       <created>1383502087773</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
       <updated>1383502087773</updated>
     </task>
     <task id="LOCAL-00006" summary="Lecture 7 Problem 5">
       <created>1383503592316</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
       <updated>1383503592316</updated>
     </task>
     <task id="LOCAL-00007" summary="Fibbonaci Sum">
       <created>1383567303241</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
       <updated>1383567303241</updated>
     </task>
     <task id="LOCAL-00008" summary="Checked FibMetered">
       <created>1383746186949</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
       <updated>1383746186949</updated>
     </task>
     <task id="LOCAL-00009" summary="workspace change">
       <created>1383826321574</created>
+      <option name="number" value="00009" />
+      <option name="project" value="LOCAL" />
       <updated>1383826321574</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Lecture 8 - Done">
+      <created>1384016859019</created>
+      <option name="number" value="00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1384016859019</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Quiz - Done">
+      <created>1384037022221</created>
+      <option name="number" value="00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1384037022221</updated>
+    </task>
+    <task id="LOCAL-00012" summary="McNugget Recursive Research">
+      <created>1384086305931</created>
+      <option name="number" value="00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1384086305931</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Quiz - Review&#10;">
+      <created>1384111620311</created>
+      <option name="number" value="00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1384111620311</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Quiz - Modificare">
+      <created>1384119814176</created>
+      <option name="number" value="00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1384119814176</updated>
+    </task>
+    <task id="LOCAL-00015" summary="pSet 04 - Start">
+      <created>1384181348546</created>
+      <option name="number" value="00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1384181348546</updated>
+    </task>
+    <task id="LOCAL-00016" summary="pSet 04 - Clean-up">
+      <created>1384183419372</created>
+      <option name="number" value="00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1384183419372</updated>
+    </task>
+    <task id="LOCAL-00017" summary="pSet 04 - cleaning">
+      <created>1384191939095</created>
+      <option name="number" value="00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1384191939095</updated>
+    </task>
+    <task id="LOCAL-00018" summary="pSet 04 - playing a hand - Done">
+      <created>1384248926032</created>
+      <option name="number" value="00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1384248926032</updated>
+    </task>
+    <task id="LOCAL-00019" summary="pSet 04 - Done">
+      <created>1384271331003</created>
+      <option name="number" value="00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1384271331003</updated>
+    </task>
+    <task id="LOCAL-00020" summary="working on cipher">
+      <created>1384539787481</created>
+      <option name="number" value="00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1384539787481</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Lecture 12 - Done">
+      <created>1385570829715</created>
+      <option name="number" value="00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1385570829715</updated>
+    </task>
+    <task id="LOCAL-00022" summary="pset 07 - Done">
+      <created>1386003440824</created>
+      <option name="number" value="00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1386003440824</updated>
+    </task>
+    <task id="LOCAL-00023" summary="workspace change">
+      <created>1386250742563</created>
+      <option name="number" value="00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1386250742563</updated>
+    </task>
+    <task id="LOCAL-00024" summary="hash_problem - Done">
+      <created>1386250819328</created>
+      <option name="number" value="00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1386250819328</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Plotting - Work in Progress">
+      <created>1386258906467</created>
+      <option name="number" value="00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1386258906467</updated>
+    </task>
+    <task id="LOCAL-00026" summary="syntax check">
+      <created>1386323390771</created>
+      <option name="number" value="00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1386323390771</updated>
+    </task>
+    <task id="LOCAL-00027" summary="syntax check">
+      <created>1386325016027</created>
+      <option name="number" value="00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1386325016027</updated>
+    </task>
+    <task id="LOCAL-00028" summary="file change">
+      <created>1386325477365</created>
+      <option name="number" value="00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1386325477365</updated>
+    </task>
+    <task id="LOCAL-00029" summary="iRobot - work in progress&#10;">
+      <created>1386531189040</created>
+      <option name="number" value="00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1386531189040</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Test Robot Movement - Function">
+      <created>1386673296905</created>
+      <option name="number" value="00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1386673296905</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Final Exam - Done">
+      <created>1386943739383</created>
+      <option name="number" value="00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1386943739383</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Final Exam - Done">
+      <created>1386954150630</created>
+      <option name="number" value="00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1386954150630</updated>
+    </task>
+    <task id="LOCAL-00033" summary="rename-s">
+      <created>1387023541660</created>
+      <option name="number" value="00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1387023541660</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -519,49 +746,64 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="-4" width="1688" height="1028" extended-state="6" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31964058" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37708333" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3288638" sideWeight="0.6803594" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24861111" sideWeight="0.67160773" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2547619" sideWeight="0.66110396" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3951389" sideWeight="0.49935815" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3326389" sideWeight="0.67160773" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3288638" sideWeight="0.6706349" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29722223" sideWeight="0.6706349" order="7" side_tool="false" content_ui="tabs" x="615" y="55" width="755" height="920" />
+      <window_info id="Terminal" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37618545" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32840028" sideWeight="0.6803594" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24806201" sideWeight="0.67160773" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2013889" sideWeight="0.7593261" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3319239" sideWeight="0.67160773" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6013889" sideWeight="0.6706349" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.338896" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="99" y="279" width="417" height="564" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297414" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40833333" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32847223" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39375" sideWeight="0.49935815" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3951389" sideWeight="0.6803594" order="8" side_tool="false" content_ui="tabs" x="615" y="55" width="755" height="920" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3577143" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25824964" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
     <layout-to-restore>
+      <window_info id="Documentation" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="99" y="279" width="417" height="564" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31934494" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31964058" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37618545" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32902297" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297414" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3951389" sideWeight="0.49935815" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33309808" sideWeight="0.67160773" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32932863" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3288638" sideWeight="0.6803594" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24911785" sideWeight="0.67160773" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40833333" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297414" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39375" sideWeight="0.49935815" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3319239" sideWeight="0.67160773" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6013889" sideWeight="0.6706349" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.338896" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32840028" sideWeight="0.6803594" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24806201" sideWeight="0.67160773" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24166666" sideWeight="0.68065506" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26527777" sideWeight="0.6706349" order="7" side_tool="false" content_ui="tabs" x="615" y="55" width="755" height="920" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2013889" sideWeight="0.7593261" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25824964" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3577143" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3951389" sideWeight="0.6803594" order="8" side_tool="false" content_ui="tabs" x="615" y="55" width="755" height="920" />
     </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -570,14 +812,33 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="0001" />
-    <MESSAGE value="clear _teste_random" />
-    <MESSAGE value="Lecture 7 Problem 4" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="false" />
     <MESSAGE value="Lecture 7 Problem 5" />
     <MESSAGE value="Fibbonaci Sum" />
     <MESSAGE value="Checked FibMetered" />
+    <MESSAGE value="Lecture 8 - Done" />
+    <MESSAGE value="Quiz - Done" />
+    <MESSAGE value="McNugget Recursive Research" />
+    <MESSAGE value="Quiz - Review&#10;" />
+    <MESSAGE value="Quiz - Modificare" />
+    <MESSAGE value="pSet 04 - Start" />
+    <MESSAGE value="pSet 04 - Clean-up" />
+    <MESSAGE value="pSet 04 - cleaning" />
+    <MESSAGE value="pSet 04 - playing a hand - Done" />
+    <MESSAGE value="pSet 04 - Done" />
+    <MESSAGE value="working on cipher" />
+    <MESSAGE value="Lecture 12 - Done" />
+    <MESSAGE value="pset 07 - Done" />
     <MESSAGE value="workspace change" />
-    <option name="LAST_COMMIT_MESSAGE" value="workspace change" />
+    <MESSAGE value="hash_problem - Done" />
+    <MESSAGE value="Plotting - Work in Progress" />
+    <MESSAGE value="syntax check" />
+    <MESSAGE value="file change" />
+    <MESSAGE value="iRobot - work in progress&#10;" />
+    <MESSAGE value="Test Robot Movement - Function" />
+    <MESSAGE value="Final Exam - Done" />
+    <MESSAGE value="rename-s" />
+    <option name="LAST_COMMIT_MESSAGE" value="rename-s" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -597,80 +858,378 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="11" />
+      <option name="time" value="19" />
     </breakpoint-manager>
+    <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pset 03/words.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="738" />
+    <entry file="file://$PROJECT_DIR$/../../_iPy Notebooks/_my_notebooks/6.00x - Lecture 5 - Recursion.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="-1" top="0" />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pset 02/pset_02 p_01 - paying the minimum.py">
+    <entry file="file://$PROJECT_DIR$/Stereo_70_Buc_Start.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="23" selection-start="158" selection-end="158" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="40530">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pset 01/pset_01 p_03 - Alphabetical Substrings.py">
+    <entry file="file://$PROJECT_DIR$/Stereo_70.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="23" selection-start="460" selection-end="460" vertical-scroll-proportion="0.5206391" vertical-offset="0" max-vertical-offset="751" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="469" max-vertical-offset="1320">
+          <caret line="84" column="26" selection-start-line="84" selection-start-column="26" selection-end-line="84" selection-end-column="26" />
+          <folding>
+            <element signature="e#528#625#0" expanded="false" />
+          </folding>
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pset 03/pset_03 p_01 - Radiation Exposure.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="718" selection-end="871" vertical-scroll-proportion="0.5206391" vertical-offset="0" max-vertical-offset="751" />
+    <entry file="file://$PROJECT_DIR$/../../_iPy Notebooks/_my_notebooks/6.00x - Lecture 5 - Recursion.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="-1" top="0" />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pset 03/pset_03 p_02 - Hangman.py">
+    <entry file="file://$PROJECT_DIR$/Stereo_70_Buc_Start.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="131" column="85" selection-start="4054" selection-end="4054" vertical-scroll-proportion="0.4114514" vertical-offset="490" max-vertical-offset="1241" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="40530">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lecture 3/Lec3__p_09 - Ghicit Nr.py">
+    <entry file="file://$PROJECT_DIR$/Stereo_70.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="19" selection-start="682" selection-end="682" vertical-scroll-proportion="0.34552845" vertical-offset="0" max-vertical-offset="738" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="469" max-vertical-offset="1320">
+          <caret line="84" column="26" selection-start-line="84" selection-start-column="26" selection-end-line="84" selection-end-column="26" />
+          <folding>
+            <element signature="e#528#625#0" expanded="false" />
+          </folding>
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lecture 3/Lec3__p_8c.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="18" selection-start="138" selection-end="138" vertical-scroll-proportion="0.20372836" vertical-offset="0" max-vertical-offset="751" />
+    <entry file="file://$PROJECT_DIR$/../../_iPy Notebooks/_my_notebooks/6.00x - Lecture 5 - Recursion.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="-1" top="0" />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pset 02/pset_02 p_02 - paying debt off in a year.py">
+    <entry file="file://$PROJECT_DIR$/Stereo_70_Buc_Start.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="70" selection-end="70" vertical-scroll-proportion="0.11675824" vertical-offset="0" max-vertical-offset="765" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="40530">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pset 02/pset_02 p_03 - Bisection Debt Search.py">
+    <entry file="file://$PROJECT_DIR$/Stereo_70.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="57" selection-start="1044" selection-end="1044" vertical-scroll-proportion="0.9320905" vertical-offset="116" max-vertical-offset="918" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="810" max-vertical-offset="1350">
+          <caret line="57" column="25" selection-start-line="57" selection-start-column="25" selection-end-line="57" selection-end-column="25" />
+          <folding>
+            <element signature="e#528#625#0" expanded="false" />
+          </folding>
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tinker.py">
+    <entry file="file://$PROJECT_DIR$/json.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="122" selection-end="122" vertical-scroll-proportion="0.18109187" vertical-offset="0" max-vertical-offset="751" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lecture 7/Lec7__p_04.py">
+    <entry file="file://$PROJECT_DIR$/Lecture 15 - Simulations &amp; Random Walks/Lec_15__p_2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="0" selection-start="1047" selection-end="1047" vertical-scroll-proportion="0.67909455" vertical-offset="0" max-vertical-offset="751" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lecture 7/Lec7__p_05.py">
+    <entry file="file://$PROJECT_DIR$/pset 09 - drogas/ps8b.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="13" selection-start="496" selection-end="496" vertical-scroll-proportion="0.5659121" vertical-offset="0" max-vertical-offset="751" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pset 08 - iRobot/ps_8 (WGA's conflicted copy 2013-12-20).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pset 08 - iRobot/ps_8.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lecture 02 - Core Elements/Lec2.5.4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_02.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pset 03 - hangman/pset_03 Hangman UF.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lecture 14 - Plotting/Lec_14__p_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lecture 10 - Memory &amp; Search/Lec_10__p_6.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lecture 10 - Memory &amp; Search/Lec_10__p_5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lecture 10 - Memory &amp; Search/Lec_10 - Iterative Search.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lecture 10 - Memory &amp; Search/Lec_10 - Hash Function.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lecture 14 - Plotting/plotting-seg1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lecture 14 - Plotting/Lec_14__p_3-4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lecture 05 - Recursion/Lec5-iterMul.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lecture 05 - Recursion/Lec5-towers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lecture 12 - Object Oriented Programming/Lec_12__genFib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.25404733" vertical-offset="0" max-vertical-offset="803">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lecture 12 - Object Oriented Programming/Lec_12__gen_Primes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.51307595" vertical-offset="812" max-vertical-offset="1615">
+          <caret line="72" column="0" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_teste_random.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="12" selection-start="333" selection-end="333" vertical-scroll-proportion="0.40745673" vertical-offset="0" max-vertical-offset="751" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="802">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lecture 5/Lec5-fibMetered.py">
+    <entry file="file://$PROJECT_DIR$/pset 03 - hangman/pset_03 p_02 - Hangman.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="159" selection-end="159" vertical-scroll-proportion="0.18109187" vertical-offset="0" max-vertical-offset="751" />
+        <state vertical-scroll-proportion="-0.9264339" vertical-offset="1043" max-vertical-offset="2340">
+          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tinker.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="802">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_03.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="802">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitcoin - merkle tree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1020">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/IPython/terminal/console/tests/writetofile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="802">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/json.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16832918" vertical-offset="0" max-vertical-offset="802">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Enthought/Canopy_64bit/User/lib/python2.7/site-packages/nose/__main__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="802">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lecture 11 - Classes/Lec_11__Coordinate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="802">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lecture 11 - Classes/Lec_11__intSet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="885">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lecture 11 - Classes/Lec_11__p_04.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="802">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pset 04 - word_game/test_ps4a.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.2561693" vertical-offset="1920" max-vertical-offset="3180">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pset 04 - word_game/ps4b.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.1022327" vertical-offset="1789" max-vertical-offset="2745">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_tools/Ray_Hett_01 - Beautiful Code.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4905">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_tools/Ray_Hett_02 - Classes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="851">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pset 04 - word_game/04 - Word Game.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2" max-vertical-offset="5985">
+          <caret line="21" column="27" selection-start-line="10" selection-start-column="0" selection-end-line="38" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../_iPy Notebooks/_my_notebooks/6.00x - Lecture 5 - Recursion.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="26" top="2796" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Stereo_70.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.87661576" vertical-offset="469" max-vertical-offset="1320">
+          <caret line="84" column="26" selection-start-line="84" selection-start-column="26" selection-end-line="84" selection-end-column="26" />
+          <folding>
+            <element signature="e#528#625#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Stereo_70_Buc_Start.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.017626323" vertical-offset="75" max-vertical-offset="40530">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
 </project>
-

@@ -44,6 +44,7 @@ def findRoot2(x, power, epsilon):
 ##print findRoot2(0.25, 2, .001)
 ##print findRoot2(-0.125, 3, .001)
 
+
 def findRoot3(x, power, epsilon):
     '''
     x and epsilon int or float, power an int
@@ -51,14 +52,14 @@ def findRoot3(x, power, epsilon):
     returns a float y s t. y**power is within epsilon of x.
     If such a float does not exist, it returns None.
     '''
-    if x < 0 and power%2 == 0:
+    if x < 0 and power % 2 == 0:
         print('Can not calculate even power for negative numbers.')
         return None
     low = min(-1.0, x)
     high = max(1.0, x)
-    ans = (high+low)/2.0
-    while abs(ans**power - x) > epsilon:
-        if ans**power < x:
+    ans = (high + low)/2.0
+    while abs(ans ** power - x) > epsilon:
+        if ans ** power < x:
             low = ans
         else:
             high = ans
@@ -74,12 +75,10 @@ def findRoot3(x, power, epsilon):
 def testFindRoot():
     epsilon = 0.0001
     for x in (0.25, -0.25, 2, -2, 8, -8):
-        for power in range(1,4):
-            print('Testing x = ' + str(x) +\
-                  ' and power = ' + str(power))
+        for power in range(1, 4):
+            print('Testing x = ' + str(x) + ' and power = ' + str(power))
             res = findRoot3(x, power, epsilon)
-            if res == None:
+            if res is None:
                 print('    No root')
             else:
                 print('    ' + str(res**power) + ' ~= ' + str(x))
-                

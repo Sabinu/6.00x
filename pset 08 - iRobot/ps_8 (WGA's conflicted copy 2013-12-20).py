@@ -228,6 +228,29 @@ class StandardRobot(Robot):
                 new_position = self.position.getNewPosition(self.direction, self.speed)
 
 
+class StandardRobot_R(Robot):
+    """
+    A StandardRobot is a Robot with the standard movement strategy.
+
+    At each time-step, a StandardRobot attempts to move in its current
+    direction; when it would hit a wall, it *instead* chooses a new direction
+    randomly.
+    """
+    def updatePositionAndClean(self):
+        """
+        Simulate the raise passage of a single time-step.
+
+        Move the robot to a new position and mark the tile it is on as having
+        been cleaned.
+        """
+        new_position = self.position.getNewPosition(self.direction, self.speed)
+
+        if self.room.isPositionInRoom(new_position):
+            self.position = new_position
+            self.room.cleanTileAtPosition(self.position)
+        else:
+            self.direction = random.randrange(360)
+
 # Uncomment this line to see your implementation of StandardRobot in action!
 # testRobotMovement(StandardRobot, RectangularRoom)
 
@@ -239,9 +262,6 @@ def test_robot_mov(room, robots, min_coverage):
             r.updatePositionAndClean()
         viz.update(room, robots)
     viz.done()
-
-camera = RectangularRoom(10, 10)
-test_robot_mov(camera, [StandardRobot(camera, 1)], 1)
 
 
 # === Problem 3
@@ -263,10 +283,22 @@ def runSimulation(num_robots, speed, width, height,
     robot_type  : class of robot to be instantiated (e.g. StandardRobot or
                   RandomWalkRobot)
     """
-    room = RectangularRoom(width, height)
-    raise NotImplementedError
+    trials = []
+    for i in range(num_trials):
+        room = RectangularRoom(width, height)
 
-# avg = runSimulation(10, 1.0, 15, 20, 0.8, 30, StandardRobot)
+        robots = []
+        for i in range(num_robots):
+            robots.append(robot_type(room, speed))
+
+        # test_robot_mov(room, robots, min_coverage)
+        time = 0
+        while room.getNumCleanedTiles() / float(room.getNumTiles()) < min_coverage:
+            for r in robots:
+                r.updatePositionAndClean()
+            time += 1
+        trials.append(time)
+    return sum(trials) / len(trials)
 
 
 # === Problem 4
@@ -281,7 +313,16 @@ class RandomWalkRobot(Robot):
         Move the robot to a new position and mark the tile it is on as having
         been cleaned.
         """
-        raise NotImplementedError
+        new_position = self.position.getNewPosition(self.direction, self.speed)
+
+        if self.room.isPositionInRoom(new_position):
+            self.position = new_position
+            self.room.cleanTileAtPosition(self.position)
+            self.direction = random.randrange(360)
+        else:
+            while not self.room.isPositionInRoom(new_position):
+                self.direction = random.randrange(360)
+                new_position = self.position.getNewPosition(self.direction, self.speed)
 
 
 def showPlot1(title, x_label, y_label):
@@ -321,9 +362,19 @@ def showPlot2(title, x_label, y_label):
     pylab.ylabel(y_label)
     pylab.show()
     
+# camera = RectangularRoom(20, 20)
+# test_robot_mov(camera, [RandomWalkRobot(camera, 1)], 0.8)
 
-#    Problem 5
+# print '1st: ', runSimulation(1, 1.0,  5,  5, 1.00, 50, RandomWalkRobot), '~  150'
+# print '2nd: ', runSimulation(1, 1.0, 10, 10, 0.75, 50, RandomWalkRobot), '~  190'
+# print '3rd: ', runSimulation(1, 1.0, 10, 10, 0.90, 50, RandomWalkRobot), '~  310'
+# print '4th:',  runSimulation(1, 1.0, 20, 20, 1.00, 50, RandomWalkRobot), '~ 3322'
+# print '5th:',  runSimulation(3, 1.0, 20, 20, 1.00, 50, RandomWalkRobot), '~ 1105'
+
+# Problem 5
 # 1) Write a function call to showPlot1 that generates an appropriately-labeled plot.
-
+# showPlot1('Time It Takes 1-10 Robots to Clean 80% Of A Room', 'Number of Robots', 'Time-Steps')
 
 # 2) Write a function call to showPlot2 that generates an appropriately-labeled plot.
+showPlot2('Percentage Of Room That A Robot CleansTime It Takes A Robot To Clean 80% Of Variously Sized Rooms',
+          'Aspect Ratio', 'Time-Steps')

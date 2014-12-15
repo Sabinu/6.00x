@@ -9,6 +9,7 @@ def factI(n):
         n -= 1
     return res
 
+
 def factR(n):
     """
     assumes that n is an int > 0
@@ -16,4 +17,4 @@ def factR(n):
     """
     if n == 1:
         return 1
-    return n*factR(n-1)
+    return n * factR(n - 1)
