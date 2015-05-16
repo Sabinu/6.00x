@@ -1,0 +1,1080 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"asc",
+				"ascii_lowercase	statement"
+			],
+			[
+				"swfie",
+				"sw_field	statement"
+			],
+			[
+				"cons",
+				"cons_outd	statement"
+			],
+			[
+				"base",
+				"base3_combo	statement"
+			],
+			[
+				"simulatinon",
+				"simulationTwoDrugsDelayedTreatment"
+			],
+			[
+				"max",
+				"maxBirthProb	param"
+			],
+			[
+				"Resi",
+				"ResistantVirus	(class)"
+			],
+			[
+				"trea",
+				"TreatedPatient	(class)"
+			],
+			[
+				"x",
+				"xVals	statement"
+			],
+			[
+				"rSq",
+				"rSquare	(function)"
+			],
+			[
+				"ad",
+				"admDrugs	statement"
+			],
+			[
+				"break",
+				"break	keyword"
+			],
+			[
+				"if",
+				"ifmain	if __name__ == '__main__'"
+			],
+			[
+				"complete",
+				"Complete"
+			],
+			[
+				"String",
+				"String	[class]"
+			],
+			[
+				"absolu",
+				"absolute	class"
+			],
+			[
+				"printl",
+				"println	println text"
+			],
+			[
+				"beg",
+				"Beg_Guide"
+			],
+			[
+				"te",
+				"test_russian"
+			],
+			[
+				"frame",
+				"framerate	frameRate (set)"
+			],
+			[
+				"rect",
+				"rect	rect"
+			],
+			[
+				"re",
+				"rectsize"
+			],
+			[
+				"setup",
+				"setup	setup"
+			],
+			[
+				"m",
+				"mySort"
+			],
+			[
+				"min",
+				"minIndx"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "Packages/User/python3.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/Vintageous/Vintageous.sublime-build",
+					""
+				],
+				[
+					"Packages/Vintageous/Vintageous.sublime-build",
+					"Vintageous - Test (All)"
+				],
+				[
+					"Packages/Vintageous/Vintageous.sublime-build",
+					"Vintageous - Test (This File Only)"
+				],
+				[
+					"Packages/Kulture/ASP.NET.sublime-build",
+					""
+				],
+				[
+					"Packages/User/python3.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/User/python3.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 400.0,
+		"last_filter": "tra",
+		"selected_items":
+		[
+			[
+				"tra",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"read",
+				"ReadmePlease"
+			],
+			[
+				"minimap",
+				"View: Toggle Minimap"
+			],
+			[
+				"defa",
+				"Preferences: Settings - Default"
+			],
+			[
+				"user",
+				"Preferences: Settings - User"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"use",
+				"Preferences: Settings - User"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"sspla",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"spla",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"folddoc",
+				"Fold Python : show documentation"
+			],
+			[
+				"trai",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"omni",
+				"OmniSharpSublime: Show Info Panel"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"trail",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"ssplai",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"ssta",
+				"Set Syntax: Tasks"
+			],
+			[
+				"Trai",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"html",
+				"HTMLBeautify"
+			],
+			[
+				"htm",
+				"HTMLBeautify"
+			],
+			[
+				"ht",
+				"HTMLBeautify"
+			],
+			[
+				"ss h",
+				"Set Syntax: HTML"
+			],
+			[
+				"intall",
+				"Package Control: Install Package"
+			],
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"wre",
+				"Word Wrap: Toggle"
+			],
+			[
+				"ss",
+				"Set Syntax: Vintageous Command Line"
+			],
+			[
+				"sst",
+				"Set Syntax: Tasks"
+			],
+			[
+				"vinta",
+				"Set Syntax: Vintageous Command Line"
+			],
+			[
+				"pref",
+				"Preferences: Settings - Default"
+			],
+			[
+				"prefe",
+				"Preferences: Settings - Default"
+			],
+			[
+				"u",
+				"Preferences: Settings - User"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				":w",
+				":w - Save"
+			],
+			[
+				"sspy",
+				"Set Syntax: Python"
+			],
+			[
+				"prett",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"ssjso",
+				"Set Syntax: JSON"
+			],
+			[
+				"json",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"ssj",
+				"Set Syntax: JSON"
+			],
+			[
+				"plain",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"marke",
+				"Marked"
+			],
+			[
+				"MARKE",
+				"Marked"
+			],
+			[
+				"marked",
+				"Marked"
+			],
+			[
+				"table ena",
+				"Table Editor: Enable for current view"
+			],
+			[
+				"table edi en",
+				"Table Editor: Enable for current syntax"
+			],
+			[
+				"table edi",
+				"Table Editor: Show demo film in new scratch view"
+			],
+			[
+				"mark",
+				"Set Syntax: Markdown"
+			],
+			[
+				"move",
+				"File: Move"
+			],
+			[
+				"new",
+				"File: New File Relative to Project Root"
+			],
+			[
+				"rena",
+				"File: Rename"
+			],
+			[
+				"mov",
+				"File: Move"
+			],
+			[
+				"MOV",
+				"File: Move"
+			],
+			[
+				"rename",
+				"File: Rename"
+			],
+			[
+				"sstas",
+				"Set Syntax: Tasks"
+			],
+			[
+				"fold",
+				"Code Folding: Unfold All"
+			],
+			[
+				"SSTAS",
+				"Set Syntax: Tasks"
+			],
+			[
+				"ssma",
+				"Set Syntax: Markdown"
+			],
+			[
+				"PLA",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"smar",
+				"Set Syntax: Markdown"
+			],
+			[
+				"ssmar",
+				"Set Syntax: Markdown"
+			],
+			[
+				"ssmark",
+				"Set Syntax: Markdown"
+			],
+			[
+				"mou",
+				"Markdown: Open with Mou.app"
+			],
+			[
+				"ssfou",
+				"Set Syntax: Fountain"
+			],
+			[
+				"ss tas",
+				"Set Syntax: Tasks"
+			],
+			[
+				"brow",
+				"Preferences: Browse Packages"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"aling",
+				"AlignTab"
+			],
+			[
+				"align",
+				"AlignTab"
+			],
+			[
+				"def",
+				"Preferences: Settings - Default"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"re",
+				"Package Control: Remove Package"
+			],
+			[
+				"mar",
+				"Set Syntax: Markdown"
+			],
+			[
+				"pret",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"dup",
+				"File: Duplicate"
+			],
+			[
+				"py",
+				"Set Syntax: Python"
+			],
+			[
+				"diff",
+				"Set Syntax: Diff"
+			],
+			[
+				"conv ta",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"pyth",
+				"Set Syntax: Python"
+			],
+			[
+				"dof unf",
+				"Code Folding: Unfold All"
+			],
+			[
+				"doc fo",
+				"Python Docstrings: Fold"
+			],
+			[
+				"unfo",
+				"Python Docstrings: Unfold"
+			],
+			[
+				"ali",
+				"AlignTab"
+			],
+			[
+				"al",
+				"AlignTab: Table Mode"
+			],
+			[
+				"ss ta",
+				"Set Syntax: Tasks"
+			],
+			[
+				"USER",
+				"Preferences: Settings - User"
+			],
+			[
+				"rea",
+				"ReadmePlease"
+			],
+			[
+				":bol",
+				"BracketHighlighter: Match Brackets (ignore threshold)"
+			],
+			[
+				":eol",
+				"Tasks: Open Link"
+			],
+			[
+				":eof",
+				":$ - EOF"
+			],
+			[
+				"pclo",
+				"Project: Close"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"key",
+				"Preferences: Key Bindings - Default"
+			],
+			[
+				"task",
+				"Tasks: New document"
+			],
+			[
+				"task n",
+				"Tasks: New document"
+			],
+			[
+				":0",
+				":0 - BOF"
+			],
+			[
+				"ss py",
+				"Set Syntax: Python"
+			],
+			[
+				":help",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"bro",
+				"Preferences: Browse Packages"
+			],
+			[
+				"pytho",
+				"Set Syntax: Python"
+			],
+			[
+				"",
+				"About"
+			],
+			[
+				"ssp",
+				"Set Syntax: Processing"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"python",
+				"Set Syntax: Python"
+			]
+		],
+		"width": 568.0
+	},
+	"console":
+	{
+		"height": 163.0,
+		"history":
+		[
+			"clear",
+			"quit()",
+			"python",
+			"which python",
+			"clear",
+			"help()",
+			"help",
+			"?print",
+			"print ?",
+			"print",
+			"print \"hello\"",
+			"print 'hello'",
+			"hello",
+			"clear",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/sabinu/Dropbox/____Research/_Python/6.00x"
+	],
+	"file_history":
+	[
+		"/Users/sabinu/Tech/PACKT - Books/building machine learning with python/Errata.txt",
+		"/Users/sabinu/Library/Application Support/Notational Data/Seriale.txt",
+		"/Users/sabinu/Dropbox/____Research/_Python/__my projects/pong/pong.py",
+		"/Users/sabinu/Downloads/=== === ===/Game.of.Thrones.S04.720p.HDTV.x264-FiLELiST/Game.of.Thrones.S04E04.720p.HDTV.x264-KILLERS/game.of.thrones.s04e04.720p.hdtv.x264-killers.nfo",
+		"/Users/sabinu/Dropbox/____Research/_Python/__my projects/h_adrian.py",
+		"/Users/sabinu/Dropbox/____Research/_Python/__my projects/plesu.txt",
+		"/Users/sabinu/Dropbox/____Research/_Python/__my projects/dan_puric.txt",
+		"/Users/sabinu/Dropbox/____Research/_Python/__my projects/wiki_basescu.txt",
+		"/Users/sabinu/Dropbox/____Research/_Python/6.00x/pset 10 - Curve Fitting/ps10.py",
+		"/Users/sabinu/Dropbox/____Research/_Python/6.00x/_final_02/exam_problem_7 - probability graph.py",
+		"/Users/sabinu/Dropbox/____Research/_Python/6.00x/pset 12 - City Clusters/clusterCities.py",
+		"/Users/sabinu/Dropbox/____Research/_Python/6.00x/pset 12 - City Clusters/test.txt",
+		"/Users/sabinu/Dropbox/____Research/_Python/6.00x/pset 12 - City Clusters/test_exam.txt",
+		"/Users/sabinu/Dropbox/____Research/_Python/6.00x/pset 12 - City Clusters/04_Problem_3.png",
+		"/Users/sabinu/Dropbox/____Research/_Python/6.00x/_final_02/randomWalks.py",
+		"/Users/sabinu/Dropbox/____Research/_Python/6.00x/_final_02/possible.py",
+		"/Users/sabinu/Dropbox/____Research/_Python/6.00x/pset 09 - drogas/ps8b.py",
+		"/Users/sabinu/Dropbox/____Research/_Python/6.00x/_final_02/problem_02.py",
+		"/Users/sabinu/Dropbox/____Research/_Python/6.00x/2.06 Lecture 19 - Curve Fitting/L17_code.py",
+		"/Users/sabinu/Dropbox/____Research/_Python/6.00x/_final_02/rabbits_01.py",
+		"/Users/sabinu/Dropbox/____Research/_Python/6.00x/_final_02/exam_problem3 - rabbits.py",
+		"/Users/sabinu/Dropbox/____Research/_Python/6.00x/pset 11 - MIT Graph/graph.py",
+		"/Users/sabinu/Dropbox/____Research/_Python/6.00x/pset 11 - MIT Graph/ps5.py",
+		"/Users/sabinu/Dropbox/____Research/_Python/6.00x/Some Features and Tricks.txt",
+		"/Users/sabinu/Dropbox/____Research/_Python/6.00x/pset 12 - City Clusters/cityTemps.txt",
+		"/Users/sabinu/Dropbox/____Research/_Python/6.00x/2.11 Lecture 24 - More on Machine Learning/scaling.py",
+		"/Users/sabinu/Library/Application Support/Sublime Text 3/Packages/Theme - Spacegray/README.md",
+		"/Users/sabinu/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/sabinu/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/sabinu/Library/Application Support/Sublime Text 3/Packages/Theme - Soda/README.md",
+		"/Users/sabinu/Library/Application Support/Sublime Text 3/Packages/Theme - Flatland/README.md",
+		"/Users/sabinu/Library/Application Support/Sublime Text 3/Packages/Seti_UI/README.md",
+		"/Users/sabinu/Dropbox/____Research/_Python/6.00x/2.09 Lecture 22 - More on Graphs/clique.py",
+		"/Users/sabinu/Dropbox/____Research/_Python/6.00x/2.09 Lecture 22 - More on Graphs/8_puzzle.py",
+		"/Users/sabinu/Dropbox/____Research/_Python/6.00x/pset 11 - MIT Graph/DFS Directed.py",
+		"/Users/sabinu/Dropbox/____Research/_Python/6.00x/2.08 Lecture 21 - Graphs & Graph Optimization/DFS.py",
+		"/Users/sabinu/Library/Application Support/Sublime Text 3/Packages/sublime-text-2-buildview/README.md",
+		"/Users/sabinu/Dropbox/____Research/_Python/6.00x/2.08 Lecture 21 - Graphs & Graph Optimization/problems.py",
+		"/Users/sabinu/Dropbox/____Research/_Python/6.00x/2.08 Lecture 21 - Graphs & Graph Optimization/depth_first.py",
+		"/Users/sabinu/Dropbox/____Research/_Python/6.00x/2.08 Lecture 21 - Graphs & Graph Optimization/BFS.py",
+		"/Users/sabinu/Dropbox/____Research/_Python/6.00x/pset 11 - MIT Graph/choices.txt",
+		"/Users/sabinu/Dropbox/____Research/_Python/6.00x/pset 11 - MIT Graph/recursive_yield.py",
+		"/Users/sabinu/Dropbox/____Research/_Python/6.00x/2.08 Lecture 21 - Graphs & Graph Optimization/graph.py",
+		"/Users/sabinu/Dropbox/____Research/_Python/6.00x/1.11 Lecture 11 - Classes/loadWords/loadWords.py",
+		"/Users/sabinu/Dropbox/____Research/_Python/6.00x/2.08 Lecture 21 - Graphs & Graph Optimization/problem_2.py",
+		"/Users/sabinu/Dropbox/____Research/_Python/6.00x/2.07 Lecture 20 - Knapsack Problem/def get_all_subsets.py",
+		"/Users/sabinu/Dropbox/____Research/_Python/6.00x/2.07 Lecture 20 - Knapsack Problem/knapsack.py",
+		"/Users/sabinu/Dropbox/____Research/_Python/6.00x/2.07 Lecture 20 - Knapsack Problem/binar_combinations.py",
+		"/Users/sabinu/Dropbox/____Research/_Python/6.00x/2.07 Lecture 20 - Knapsack Problem/memoization.py",
+		"/Users/sabinu/Dropbox/____Research/_Python/6.00x/_Quiz 02/drunky.py",
+		"/Users/sabinu/Dropbox/____Research/_Python/6.00x/_Quiz 02/grading.py",
+		"/Users/sabinu/Dropbox/____Research/_Python/6.00x/_Quiz 02/dice_probability.py",
+		"/Users/sabinu/Dropbox/____Research/_Python/6.00x/pset 10 - Curve Fitting/histogram_demo_features.py",
+		"/Users/sabinu/Dropbox/____Research/_Python/6.00x/pset 10 - Curve Fitting/ps09.py",
+		"/Users/sabinu/Dropbox/____Research/_Python/6.00x/pset 10 - Curve Fitting/ProblemSet4/ps4.py",
+		"/Users/sabinu/Dropbox/____Research/_Python/6.00x/2.06 Lecture 19 - Curve Fitting/Lec_18__code.py",
+		"/Users/sabinu/Dropbox/____Research/_Python/6.00x/reminder.md",
+		"/Users/sabinu/Dropbox/____Research/_Sublime Text/tutor_progression.txt",
+		"/Users/sabinu/Dropbox/____Research/_Sublime Text/tutor.txt",
+		"/Users/sabinu/Dropbox/____Research/_Python/6.00x/2.06 Lecture 19 - Curve Fitting/Lec_18__01.py",
+		"/Users/sabinu/Dropbox/____Research/_Python/6.00x/2.01 Lecture 14 - Plotting/plotting-seg3.py",
+		"/Users/sabinu/Dropbox/____Research/_Python/6.00x/pset 09 - drogas/debbug.py",
+		"/Users/sabinu/Library/Application Support/Sublime Text 3/Packages/Jedi - Python autocompletion/README.md",
+		"/Users/sabinu/Dropbox/____Research/_Python/6.00x/1.12 Lecture 12 - Object Oriented Programming/Lec_12__3.py",
+		"/Users/sabinu/Dropbox/____Research/___Notes/notes/Fuzzy Search",
+		"/Users/sabinu/Dropbox/____Research/_Python/6.00x/2.03 Lecture 16 - Sampling & Monte Carlo Methods/Lec_16__p_6.py",
+		"/Users/sabinu/Dropbox/____Research/_Python/6.00x/_Quiz/p_01.py",
+		"/Users/sabinu/__VORK/___TAG/02_casa tamasi/02_Documents/_Topo/puncte_topo.csv",
+		"/Users/sabinu/Downloads/sf_ilie_2.txt",
+		"/Users/sabinu/Dropbox/____Research/_Python/6.00x/format_align_floats.py",
+		"/Users/sabinu/Dropbox/____Research/_Python/6.00x/to_delete.cs",
+		"/Users/sabinu/Library/Application Support/Sublime Text 3/Packages/OmniSharp/README.md",
+		"/Users/sabinu/Dropbox/____Research/_Python/6.00x/to_delete.py",
+		"/Users/sabinu/Library/Application Support/Sublime Text 3/Packages/SublimePythonIDE/README.markdown",
+		"/Users/sabinu/Dropbox/____Research/_Python/6.00x/pset 08 - iRobot/ps_8.py",
+		"/Users/sabinu/Dropbox/____Research/_Python/6.00x/pset 08 - iRobot/ps_8 v2.py",
+		"/Users/sabinu/Dropbox/____Research/_Python/6.00x/pset 08 - iRobot/ps_8 (WGA's conflicted copy 2013-12-20).py",
+		"/Users/sabinu/Dropbox/____Research/_Python/6.00x/2.04 Lecture 17 - Statistical Thinking/histogramfun.py",
+		"/Users/sabinu/Dropbox/____Research/_Python/6.00x/2.04 Lecture 17 - Statistical Thinking/Lec_17__p_03.py",
+		"/Users/sabinu/Dropbox/____Research/_Python/6.00x/2.04 Lecture 17 - Statistical Thinking/Lec_17__03.py",
+		"/Users/sabinu/Dropbox/____Research/_Python/6.00x/2.03 Lecture 16 - Sampling & Monte Carlo Methods/02_hashingExamples.py",
+		"/Users/sabinu/Dropbox/____Research/_Python/6.00x/2.03 Lecture 16 - Sampling & Monte Carlo Methods/03_intDict.py",
+		"/Users/sabinu/Dropbox/____Research/_Python/6.00x/2.03 Lecture 16 - Sampling & Monte Carlo Methods/04_intDictTests.py",
+		"/Users/sabinu/Dropbox/____Research/_Python/6.00x/1.04 Lecture 04 - Functions/Lec4-iterativePower.py",
+		"/Users/sabinu/Dropbox/____Research/_Python/6.00x/2.03 Lecture 16 - Sampling & Monte Carlo Methods/01_rollDice.py",
+		"/Users/sabinu/Dropbox/____Research/_Python/6.00x/Average - Rex.py",
+		"/Users/sabinu/Dropbox/____Research/_Python/6.00x/pset 08 - iRobot/ps7_visualize.py",
+		"/Users/sabinu/Dropbox/____Research/_Python/6.00x/pset 08 - iRobot/run_pkgtest.py",
+		"/Users/sabinu/Dropbox/____Research/_Python/6.00x/README.md",
+		"/Users/sabinu/Dropbox/____Research/_Python/6.00x/pset 08 - iRobot/camera.py",
+		"/Users/sabinu/Dropbox/____Research/_Python/6.00x/pset 07 - rss/project_util.py",
+		"/Users/sabinu/Dropbox/____Research/_Python/6.00x/pset 06 - cipher_text/cipher_text/ps5_recursion.py",
+		"/Users/sabinu/Dropbox/____Research/_Python/6.00x/2.02 Lecture 15 - Simulations & Random Walks/Lec_15__p_6.py",
+		"/Users/sabinu/Dropbox/____Research/_Python/6.00x/1.05 Lecture 05 - Recursion/Lec5__p_03 - RecPow Odd.py",
+		"/Users/sabinu/Dropbox/____Research/_Python/6.00x/1.04 Lecture 04 - Functions/Lec4-roots.py",
+		"/Users/sabinu/Dropbox/____Research/_Python/6.00x/2.02 Lecture 15 - Simulations & Random Walks/Lec_15__p_4.py",
+		"/Users/sabinu/Dropbox/____Research/_Python/6.00x/2.02 Lecture 15 - Simulations & Random Walks/Lec_15__p_3.py",
+		"/Users/sabinu/Dropbox/____Research/_Python/6.00x/2.02 Lecture 15 - Simulations & Random Walks/Lec_15__p_2.py",
+		"/Users/sabinu/Dropbox/____Research/_Python/6.00x/Lecture 15 - Simulations & Random Walks/Lec_15__p_6.py",
+		"/Users/sabinu/Dropbox/____Research/_Python/6.00x/Lecture 15 - Simulations & Random Walks/Lec_15__p_4.py",
+		"/Users/sabinu/Dropbox/____Research/_Python/6.00x/Lecture 15 - Simulations & Random Walks/Lec_15__p_3.py",
+		"/Users/sabinu/Dropbox/____Research/_Python/6.00x/Lecture 15 - Simulations & Random Walks/Lec_15__p_2.py",
+		"/Users/sabinu/Dropbox/____Research/_Python/6.00x/Lecture 14 - Plotting/Lec_14__p_1.py",
+		"/Users/sabinu/Dropbox/____Research/_Python/6.00x/Lecture 14 - Plotting/Lec_14__p_3-4.py",
+		"/Users/sabinu/Desktop/why.txt",
+		"/Users/sabinu/__VORK/Materiale render/arroway.txt",
+		"/Users/sabinu/Dropbox/____Research/___Notes/Tutorials/rhino.md",
+		"/Users/sabinu/Downloads/rhino_5_10.txt",
+		"/Users/sabinu/Dropbox/____Research/_Python/add_digits.py",
+		"/Users/sabinu/Dropbox/____Research/___Notes/notes/TRANSFER.md",
+		"/Users/sabinu/Dropbox/____Research/___Notes/Tutorials/Probability.txt",
+		"/Volumes/55/notes.md",
+		"/Users/sabinu/Dropbox/____Research/___Notes/documentation/Architects.md",
+		"/Users/sabinu/Dropbox/____Research/___Notes/documentation/producers.md",
+		"/Users/sabinu/Dropbox/____Research/___Notes/collections/books.todo",
+		"/Users/sabinu/Dropbox/____Research/___Notes/collections/books_tech.todo",
+		"/Users/sabinu/Dropbox/____Research/___Notes/collections/Music.todo",
+		"/Users/sabinu/Dropbox/____Research/___Notes/collections/Music (Sabin_MacBook's conflicted copy 2015-02-03).todo",
+		"/Users/sabinu/Dropbox/____Research/___Notes/notes/general.md",
+		"/Users/sabinu/Dropbox/____Research/___Notes/notes/OSM.md",
+		"/Users/sabinu/Dropbox/____Research/___Notes/TODO/videos.todo",
+		"/Users/sabinu/Dropbox/____Research/___Notes/meta.todo",
+		"/Users/sabinu/Dropbox/____Research/___Notes/scrape_imob/zip_codes_scrape.txt",
+		"/Users/sabinu/Dropbox/____Research/___Notes/scrape_imob/zip_codes.csv",
+		"/Users/sabinu/Dropbox/____Research/___Notes/collections/hello.py",
+		"/Users/sabinu/Dropbox/____Research/___Notes/general.todo",
+		"/Users/sabinu/Dropbox/____Research/___Notes/python.todo",
+		"/Users/sabinu/Dropbox/____Research/___Notes/pay_up.md"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Errata type:",
+			"Errata",
+			"(",
+			"sha",
+			"new_nodes",
+			"k",
+			"allEdges",
+			"edges",
+			"nodes",
+			"True",
+			";",
+			"sw_field",
+			"currentLocation",
+			"leftEdge",
+			"rab_pop",
+			"rab_coeff",
+			"rabbitPopulationOverTime",
+			"coeff",
+			"plotPopulatins",
+			"rab_pop",
+			"max_rab_pop",
+			"variance",
+			"False",
+			"p",
+			"mergeOne",
+			"findClosest",
+			"mergeClusters",
+			"closest",
+			"readCityData",
+			"featureVals",
+			" 8 ",
+			"8 ",
+			"56 ",
+			"56 8 ",
+			"8 56 ",
+			"56 8 ",
+			"56 8",
+			"path",
+			"DFSShortest",
+			"shortest",
+			",",
+			"length",
+			"print",
+			"]",
+			"[",
+			".[",
+			"simulationDelayedTreatment",
+			"t_after",
+			"time_before",
+			"time_after",
+			"time_before",
+			"time_after",
+			"time_steps",
+			"simulationTwoDrugsDelayedTreatment",
+			"totHeights",
+			"rSquare",
+			"trials",
+			"res",
+			"self.legend",
+			"style",
+			"Complete",
+			"complete",
+			"Complete",
+			"Mark",
+			"main",
+			"random",
+			"lst",
+			"li5t",
+			"robotmovement",
+			"lagg",
+			"kill",
+			".app",
+			")",
+			"T",
+			"Bucuresti	Bucuresti	",
+			"(Rezultate: 12334)",
+			"\n\n\n",
+			"Coduri Poștale\nCod poștal \nInfo Coduri Postale\nScript Coduri Postale\nAjutor \nCoduri postale Bucuresti, Bucuresti\nCăutare coduri poștale\nJudeţul Localitatea Strada  \nCod poștal	Judeţul	Localitatea	Strada",
+			"Coduri postale\nCodurile poștale din România pot fi găsite cel mai ușor cu ajutorul motorului de căutare coduripostale. Codurile poștale pentru localități sunt afișate într-un tabel cu patru coloane, respectiv: Judet, Localitate, Strada (unde există) și Cod poștal, ordonate alfabetic. În cazul localităților dintr-un județ care au denumiri identice, se afișează între paranteze și denumirea comunei, în dreptul localității respective.\n\nCod postal\nCodul poștal este o serie de litere sau cifre (ori o combinația acestora) adăugate adresei poștale pentru scopul sortării corespondenței. Prima țară care a folosit cod poștal era Germania, încă de la începutul anilor 1960. Majoritatea serviciilor poștale din lume au un sistem de cod poștal, excepție fiind Irlanda, Hong Kong și Noua Zeelandă, ultimul având un sistem de cod poștal parțial. În general aceste coduri de poștă reprezintă anumite zone geografice dar există și excepții, când codurile poștale reprezintă instituții, agenții guvernamentale ori companii comerciale mari.\n\nCod postal, Romania\nPoșta Română a introdus codificarea poștală din România în 1974, vechile coduri poștale fiind formate din patru cifre. în 2003 (1 Mai 2003) au intrat în vigoare noile coduri poștale, formate din șase cifre, cu o codificarea detaliată până la nivel de stradă. La realizarea codului poștal au fost luate în considerare localitățile din România cuprinse în Legea nr. 2/1968. Scopul noului sistem era scurtarea timpului de operare în serviciile poștale Românești și eliminarea confuziilor între localitățile omonime din același județ. Iată codurile pentru localitățile cu numele Bărăști. Lista noilor coduri poștale include toate localitatile si strazile (cu cod poștal) din Romania. Baza de date coduripostale.ro (cautare coduri postale romanesti) este prima bază de date de acest gen din România, lansat in 2003, la numai câteva luni după introducerea codurilor poștale noi. Situl a fost complet revizuit și îmbunătățit în 2005, 2011 și 2014.\n\nCoduri postale Romanesti\nSemnificația codurilor poștale românești (noul cod poștal, numerele din codul de șase cifre) sunt: Prima cifră (0-9), reprezintă cele zece regiuni poștale în care a fost împărțită România. A doua cifră (0-5) codifică județele componente ale unei regiuni poștale, București având o situație specială: cifrele 1 și 6 reprezintă cele șase sectoare ale municipiului București (ca la județe), iar cifrele 7 și 8 reprezintă județele Giurgiu și Ilfov. Ultimele patru cifre precizează, din punct de vedere poștal, reședințe de județ, orașe, sate (cu precizarea comunei), străzi, porțiuni de străzi și imobile. \n\nCoduri poștale pe orașe\n\nCodurile poștale ale localităților din cele 41 județe (plus București) pot fi găsite în tabelul de pe prima pagină. La accesarea unui judet, se afișează toate localitățile din acest judet, în ordine alfabetică.\nLista celor 48 de localități cu cod poștal pe străzi se găsesc tot pe prima pagină, sub tabelul codurilor poștale pe județe.\n\nCoduri poștale pe străzi\n\nCodurile poștale ale străzilor cuprind denumirea străzii în ordine alfabetică, numerele imobilelor cu- și fără soț, în ordine crescătoare. Când se afișează la o adresa 1-T, acesta înseamnă: de la numărul 1 la toate numerele impare, când se afișează 4-T, înseamnă: de la numărul 4 la toate numerele pare.\n\nLista localitatilor din Romania\n\nCoduripostale.ro cuprinde și lista completă a localităților din România (localitati pe judete). Se pot face căutări pentru localități pe județe, după nume și dupa cod. Prin accesarea unui județ, se găsesc toate localitățile din România, în ordine alfabetică. Motorul de căutare listează și localitățile omonime (cu același nume).\n\nCăutare după cod poștal 	Caută\nCoduri Poștale SUA | Franța | Germania | Spania | Italia | Facebook | Contact\nCoduri Postale, Romania © coduripostale.ro. All rights reserved. Google+\nCoduri Postale: Coduri Poștale, Twitter, Facebook, LinkedIn, Google+, YouTube, MySpace, Pinterest, Flickr.",
+			"\n\n\n\n",
+			"\n\n\n",
+			"Coduri postale\nCodurile poștale din România pot fi găsite cel mai ușor cu ajutorul motorului de căutare coduripostale. Codurile poștale pentru localități sunt afișate într-un tabel cu patru coloane, respectiv: Judet, Localitate, Strada (unde există) și Cod poștal, ordonate alfabetic. În cazul localităților dintr-un județ care au denumiri identice, se afișează între paranteze și denumirea comunei, în dreptul localității respective.\n\nCod postal\nCodul poștal este o serie de litere sau cifre (ori o combinația acestora) adăugate adresei poștale pentru scopul sortării corespondenței. Prima țară care a folosit cod poștal era Germania, încă de la începutul anilor 1960. Majoritatea serviciilor poștale din lume au un sistem de cod poștal, excepție fiind Irlanda, Hong Kong și Noua Zeelandă, ultimul având un sistem de cod poștal parțial. În general aceste coduri de poștă reprezintă anumite zone geografice dar există și excepții, când codurile poștale reprezintă instituții, agenții guvernamentale ori companii comerciale mari.\n\nCod postal, Romania\nPoșta Română a introdus codificarea poștală din România în 1974, vechile coduri poștale fiind formate din patru cifre. în 2003 (1 Mai 2003) au intrat în vigoare noile coduri poștale, formate din șase cifre, cu o codificarea detaliată până la nivel de stradă. La realizarea codului poștal au fost luate în considerare localitățile din România cuprinse în Legea nr. 2/1968. Scopul noului sistem era scurtarea timpului de operare în serviciile poștale Românești și eliminarea confuziilor între localitățile omonime din același județ. Iată codurile pentru localitățile cu numele Bărăști. Lista noilor coduri poștale include toate localitatile si strazile (cu cod poștal) din Romania. Baza de date coduripostale.ro (cautare coduri postale romanesti) este prima bază de date de acest gen din România, lansat in 2003, la numai câteva luni după introducerea codurilor poștale noi. Situl a fost complet revizuit și îmbunătățit în 2005, 2011 și 2014.\n\nCoduri postale Romanesti\nSemnificația codurilor poștale românești (noul cod poștal, numerele din codul de șase cifre) sunt: Prima cifră (0-9), reprezintă cele zece regiuni poștale în care a fost împărțită România. A doua cifră (0-5) codifică județele componente ale unei regiuni poștale, București având o situație specială: cifrele 1 și 6 reprezintă cele șase sectoare ale municipiului București (ca la județe), iar cifrele 7 și 8 reprezintă județele Giurgiu și Ilfov. Ultimele patru cifre precizează, din punct de vedere poștal, reședințe de județ, orașe, sate (cu precizarea comunei), străzi, porțiuni de străzi și imobile. \n\nCoduri poștale pe orașe\n\nCodurile poștale ale localităților din cele 41 județe (plus București) pot fi găsite în tabelul de pe prima pagină. La accesarea unui judet, se afișează toate localitățile din acest judet, în ordine alfabetică.\nLista celor 48 de localități cu cod poștal pe străzi se găsesc tot pe prima pagină, sub tabelul codurilor poștale pe județe.\n\nCoduri poștale pe străzi\n\nCodurile poștale ale străzilor cuprind denumirea străzii în ordine alfabetică, numerele imobilelor cu- și fără soț, în ordine crescătoare. Când se afișează la o adresa 1-T, acesta înseamnă: de la numărul 1 la toate numerele impare, când se afișează 4-T, înseamnă: de la numărul 4 la toate numerele pare.\n\nLista localitatilor din Romania\n\nCoduripostale.ro cuprinde și lista completă a localităților din România (localitati pe judete). Se pot face căutări pentru localități pe județe, după nume și dupa cod. Prin accesarea unui județ, se găsesc toate localitățile din România, în ordine alfabetică. Motorul de căutare listează și localitățile omonime (cu același nume).\n\nCăutare după cod poștal 	Caută\nCoduri Poștale SUA | Franța | Germania | Spania | Italia | Facebook | Contact\nCoduri Postale, Romania © coduripostale.ro. All rights reserved. Google+\nCoduri Postale: Coduri Poștale, Twitter, Facebook, LinkedIn, Google+, YouTube, MySpace, Pinterest, Flickr.",
+			"Coduri Poștale\nCod poștal \nInfo Coduri Postale\nScript Coduri Postale\nAjutor \nCoduri postale Bucuresti, Bucuresti\nCăutare coduri poștale\nJudeţul Localitatea Strada  \nCod poștal	Judeţul	Localitatea	Strada",
+			"- ArchiCAD 18 Training Series 3",
+			"/52",
+			"52",
+			"ArchiCAD",
+			"Archicad",
+			"ArchiCAD",
+			"Archicad",
+			"Detail",
+			"dogarilor",
+			"interview",
+			"flv",
+			"http",
+			"<div",
+			"<",
+			"html",
+			"–",
+			" – ",
+			"ctrl",
+			"repeat",
+			"dIzicVIwL8Q",
+			"img",
+			"w6",
+			"switch",
+			"Hello",
+			"luna",
+			"internet",
+			"enel",
+			"intretinere",
+			"- ",
+			"com",
+			"cargocollective",
+			"CONNIE",
+			"Claude",
+			"CLAUDE",
+			"Claude",
+			"CLAUDE",
+			"Claude",
+			"CLAUDE",
+			"Claude",
+			"CLAUDE",
+			"ANGELINA CANOLI",
+			"Angelina Canoli",
+			"ANGELINA CANOLI",
+			"Angelina",
+			"ANGELINA"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 38.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.513802083333,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 447.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.variable_get":
+	{
+		"height": 110.0
+	},
+	"output.vi_out":
+	{
+		"height": 208.0
+	},
+	"pinned_build_system": "",
+	"project": "6.00.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"load",
+				"1.11 Lecture 11 - Classes/loadWords/loadWords.py"
+			],
+			[
+				"run",
+				"pset 08 - iRobot/run_pkgtest.py"
+			],
+			[
+				"osm",
+				"notes/OSM.md"
+			],
+			[
+				"meta",
+				"meta.todo"
+			],
+			[
+				"py",
+				"python.todo"
+			],
+			[
+				"musi",
+				"collections/Music.todo"
+			],
+			[
+				"music",
+				"collections/Music.todo"
+			],
+			[
+				"ac",
+				"TODO/AC TS 03.todo"
+			],
+			[
+				"architec",
+				"Architects:"
+			],
+			[
+				"note",
+				"Note:"
+			],
+			[
+				"cls",
+				"c4d208-files01/cls_01_01.py"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Dropbox/____Research/_Python/next_level/Next Level.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 1,
+	"settings":
+	{
+		"_vintageous_last_buffer_search": "sha",
+		"_vintageous_last_buffer_search_command": "vi_slash",
+		"_vintageous_last_char_search_command": "vi_f",
+		"_vintageous_last_character_search": "(",
+		"_vintageous_reset_during_init": true,
+		"vintage":
+		{
+			"_cmdline_cd": "/Users/sabinu/Library/Application Support/Notational Data"
+		}
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 322.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

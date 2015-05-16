@@ -1,6 +1,8 @@
 __author__ = 'Sabin'
 
 
+# Rescrie chestia asta cu un output ordonat
+
 def ave():
     '''
     Returns the average of a user input list.
@@ -22,39 +24,38 @@ def ave():
     return Su/len(ave)
 
 
-def avv(li5t):
+def avv(lst):
     '''
     Returns the average of a list items.
     '''
     Su = 0
-    for i in li5t:
+    for i in lst:
         Su += i
 
-    return Su/len(li5t)
+    return Su/len(lst)
 
 
-def print_Ave(li5t, i):
-    print('Average for et.' + str(i) + ' is: ' + str(round(avv(li5t), 3)) + ' :: List was ' + str(len(li5t)) + ' elements long.')
+def print_Ave(lst, i):
+    print('Average for et. {} is: {:6.3f} :: List was {} elements long.'.format(i, round(avv(lst), 3), len(lst)))
     return None
 
 
-def diff(li5t):
-    '''
-    Prints differences between list items.
-    '''
-    for i in range(len(li5t)-1):
-        print('\nDif ' + str(i+1) + ': ' + str(round(li5t[i+1]-li5t[i], 3)))
+def diff(lst):
+    ''' Prints differences between list items. '''
+    print()
+    for i in range(len(lst)-1):
+        print('Dif {}: {:5.3f}'.format(i+1, round(lst[i+1]-lst[i], 3)))
     return None
 
 
-def dist_avv(li5t):
+def dist_avv(lst):
     '''
     Calculates & Prints distance of list items from average of list.
     '''
     ind = 1
     print('')
-    for i in li5t:
-        print('Member nr.' + str(ind) + ' is ' + str(round(abs(avv(li5t)-i), 3)) + ' far away from list average of ' + str(round(avv(li5t), 3)))
+    for i in lst:
+        print('Member nr.{} is {:5.3f} far away from list average of {:6.3f}'.format(ind, round(abs(avv(lst)-i), 3), round(avv(lst), 3)))
         ind +=1
     return None
 
