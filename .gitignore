@@ -1,13 +1,2 @@
-/.idea/.name
-/.idea/6.00x.iml
-/.idea/dictionaries/
-/.idea/encodings.xml
-/.idea/inspectionProfiles/
-/.idea/misc.xml
-/.idea/modules.xml
-/.idea/other.xml
-/.idea/testrunner.xml
-/.idea/vcs.xml
-/.idea/workspace.xml
-/.idea/dictionaries/Administrator.xml
-/.idea/dictionaries/Sabinu.xml
+.idea
+*.mp4
